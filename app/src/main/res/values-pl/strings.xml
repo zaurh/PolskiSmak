@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="english">Angielski</string>
+    <string name="polish">Polski</string>
+    <string name="home">Główny</string>
+    <string name="favorites">Ulubione</string>
+    <string name="settings">Ustawienia</string>
+    <string name="language">Język</string>
+    <string name="dark_mode">Tryb ciemny</string>
+    <string name="close">Zamknij</string>
+    <string name="about">Informacje</string>
+    <string name="contact">Kontakt</string>
+    <string name="search_recipe">Wyszukaj przepis</string>
+    <string name="search_favorite">Wyszukaj ulubione</string>
+    <string name="about_text">Ta aplikacja zawiera przepisy kuchni polskiej. Wszystkie przepisy są pobierane z https://zaurapi.com.</string>
+</resources>
