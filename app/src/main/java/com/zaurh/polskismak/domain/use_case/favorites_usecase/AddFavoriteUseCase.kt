@@ -1,11 +1,11 @@
 package com.zaurh.polskismak.domain.use_case.favorites_usecase
 
 import com.zaurh.polskismak.data.local.entities.FavoritesEntity
-import com.zaurh.polskismak.domain.repo.MealsRepository
+import com.zaurh.polskismak.data.remote.repo.FavoritesRepoImpl
 import javax.inject.Inject
 
 class AddFavoriteUseCase @Inject constructor(
-    private val repository: MealsRepository
+    private val repository: FavoritesRepoImpl
 ) {
 
     suspend operator fun invoke(favoritesEntity: FavoritesEntity) {

@@ -11,7 +11,7 @@ import com.zaurh.polskismak.data.local.entities.MealsEntity
 @Database(entities = [MealsEntity::class, FavoritesEntity::class], version = 11)
 @TypeConverters(Converters::class)
 
-abstract class MealsDatabase: RoomDatabase() {
+abstract class MealsDatabase : RoomDatabase() {
     abstract fun mealsDao(): MealsDao
     abstract fun favoritesDao(): FavoritesDao
 }

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="english">Angielski</string>
-    <string name="polish">Polski</string>
     <string name="home">Główny</string>
     <string name="favorites">Ulubione</string>
     <string name="settings">Ustawienia</string>

@@ -2,47 +2,39 @@ package com.zaurh.polskismak.data.remote.repo
 
 import com.zaurh.polskismak.common.Resource
 import com.zaurh.polskismak.data.local.MealsDatabase
-import com.zaurh.polskismak.data.local.dao.MealsDao
-import com.zaurh.polskismak.data.local.entities.FavoritesEntity
 import com.zaurh.polskismak.data.local.entities.MealsEntity
 import com.zaurh.polskismak.data.remote.MealsApi
-import com.zaurh.polskismak.data.remote.dto.MealsItem
 import com.zaurh.polskismak.data.remote.dto.Quotes
-import com.zaurh.polskismak.data.remote.toMealsEntity
-import com.zaurh.polskismak.data.remote.toMealsItemDto
 import com.zaurh.polskismak.domain.repo.MealsRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.map
 import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
 class MealsRepoImpl @Inject constructor(
     private val api: MealsApi,
-    private val db: MealsDatabase
-): MealsRepository {
+    db: MealsDatabase
+) : MealsRepository {
 
     private val mealsDao = db.mealsDao()
-    private val favoritesDao = db.favoritesDao()
 
     override fun getMeals(fetchFromRemote: Boolean): Flow<Resource<List<MealsEntity>>> = flow {
         emit(Resource.Loading())
         val localMealList = mealsDao.getAllMeals().map { it }
-        emit(Resource.Loading(data = localMealList))
+        emit(Resource.Loading())
 
         val fetchingFromLocal = localMealList.isNotEmpty() && !fetchFromRemote
 
         try {
-            if (fetchingFromLocal){
-                emit(Resource.Loading(data = localMealList))
-            }else{
+            if (fetchingFromLocal) {
+                emit(Resource.Loading())
+            } else {
                 val remoteMealList = api.getMeals()
                 mealsDao.clearMeals()
                 mealsDao.insertMeals(remoteMealList.map { it })
             }
-        }
-        catch (e: HttpException) {
+        } catch (e: HttpException) {
             emit(Resource.Error(e.localizedMessage ?: "Unexpected Error"))
         } catch (e: IOException) {
             emit(Resource.Error(e.message.toString()))
@@ -58,17 +50,18 @@ class MealsRepoImpl @Inject constructor(
             val specificMeal = api.getMeal(id)
             emit(Resource.Success(specificMeal))
 
-        }
-        catch(e: HttpException) {
-            println("Http: ${e.message}")
-            emit(Resource.Error(
-                message = "Oops, something went wrong!"
-            ))
-        } catch(e: IOException) {
-            println("IO: ${e.message}")
-            emit(Resource.Error(
-                message = "Couldn't reach server, check your internet connection"
-            ))
+        } catch (e: HttpException) {
+            emit(
+                Resource.Error(
+                    message = "${e.message}"
+                )
+            )
+        } catch (e: IOException) {
+            emit(
+                Resource.Error(
+                    message = "${e.message}"
+                )
+            )
         }
     }
 
@@ -77,34 +70,21 @@ class MealsRepoImpl @Inject constructor(
             emit(Resource.Loading())
             val randomQuote = api.getQuote()
             emit(Resource.Success(randomQuote))
+        } catch (e: HttpException) {
+            emit(
+                Resource.Error(
+                    message = "${e.message}"
+                )
+            )
+
+        } catch (e: IOException) {
+            emit(
+                Resource.Error(
+                    message = "${e.message}"
+                )
+            )
+
         }
-        catch(e: HttpException) {
-            emit(Resource.Error(
-                message = "Oops, something went wrong!"
-            ))
-            println("messageHttp" + e.message)
-
-        } catch(e: IOException) {
-            emit(Resource.Error(
-                message = "Couldn't reach server, check your internet connection"
-            ))
-
-        }
-    }
-
-    override fun getFavorites(): Flow<List<FavoritesEntity>> = flow {
-        favoritesDao.allFavorites().collect{ result ->
-            emit(result.map { it })
-        }
-    }
-
-
-    override suspend fun addFavorite(favoritesEntity: FavoritesEntity) {
-        favoritesDao.addFavorite(favoritesEntity)
-    }
-
-    override suspend fun removeFavorite(favoritesEntity: FavoritesEntity) {
-        favoritesDao.removeFavorite(favoritesEntity)
     }
 
 

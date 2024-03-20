@@ -5,7 +5,6 @@ import androidx.room.Delete
 import androidx.room.Query
 import androidx.room.Upsert
 import com.zaurh.polskismak.data.local.entities.FavoritesEntity
-import com.zaurh.polskismak.data.local.entities.MealsEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

@@ -5,5 +5,5 @@ data class Recipe(
     val imageUrl: String? = null,
     val optional: String? = null,
     val quantity: String? = null,
-    val unit: String?= null
+    val unit: String? = null
 )

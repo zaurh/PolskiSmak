@@ -116,4 +116,11 @@ dependencies {
 
     // Splash API
     implementation 'androidx.core:core-splashscreen:1.1.0-alpha02'
+
+    // Pager and Indicators - Accompanist
+    implementation "com.google.accompanist:accompanist-pager:0.17.0"
+    implementation "com.google.accompanist:accompanist-pager-indicators:0.17.0"
+
+    //Swipe refresh
+    implementation "com.google.accompanist:accompanist-swiperefresh:0.27.0"
 }

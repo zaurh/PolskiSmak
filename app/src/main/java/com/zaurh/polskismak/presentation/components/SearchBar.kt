@@ -22,7 +22,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.unit.dp
-import com.zaurh.polskismak.presentation.main_screen.MainViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

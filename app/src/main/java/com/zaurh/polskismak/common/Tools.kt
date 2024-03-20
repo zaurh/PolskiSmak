@@ -3,58 +3,42 @@ package com.zaurh.polskismak.common
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
-import android.os.Parcelable
 import androidx.annotation.StringRes
-import androidx.compose.foundation.background
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Favorite
 import androidx.compose.material.icons.rounded.Home
-import androidx.compose.material.icons.rounded.Info
-import androidx.compose.material.icons.rounded.List
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.NavigationBarItemDefaults
-import androidx.compose.material3.NavigationDrawerItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
 import com.zaurh.polskismak.R
-import com.zaurh.polskismak.Screen
+import com.zaurh.polskismak.navigation.Screen
 
-data class NavParam(
-    val name: String,
-    val value: Parcelable
-)
 
-fun navigateTo(navController: NavController, dest: String, vararg params: NavParam) {
-    for (param in params) {
-        navController.currentBackStackEntry?.savedStateHandle?.set(param.name, param.value)
-    }
-    navController.navigate(dest) {
-        popUpTo(dest)
-        launchSingleTop = true
-    }
-}
-
-sealed class NavigationItem(var route: String, val icon: ImageVector?, @StringRes val titleResId: Int) {
+sealed class NavigationItem(
+    var route: String,
+    val icon: ImageVector?,
+    @StringRes val titleResId: Int
+) {
     object Home : NavigationItem(Screen.Main.route, Icons.Rounded.Home, R.string.home)
-    object Favorites : NavigationItem(Screen.Favorite.route, Icons.Rounded.Favorite, R.string.favorites)
-    object Settings : NavigationItem(Screen.Settings.route, Icons.Rounded.Settings, R.string.settings)
+    object Favorites :
+        NavigationItem(Screen.Favorite.route, Icons.Rounded.Favorite, R.string.favorites)
+
+    object Settings :
+        NavigationItem(Screen.Settings.route, Icons.Rounded.Settings, R.string.settings)
 }
 
 @Composable
@@ -107,7 +91,6 @@ fun BottomNavigationBar(navController: NavController) {
         }
     }
 }
-
 
 
 fun Context.sendMail(to: String, subject: String) {
