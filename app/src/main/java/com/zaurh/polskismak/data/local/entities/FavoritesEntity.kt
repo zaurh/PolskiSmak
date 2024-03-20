@@ -7,8 +7,6 @@ import com.zaurh.polskismak.data.remote.dto.Instructions
 
 @Entity(tableName = "favorites")
 data class FavoritesEntity(
-    @PrimaryKey(autoGenerate = true)
-    val roomId: Int = 1,
     val cookTimeMinutes: Int,
     val description: String,
     val dietary: String,
@@ -16,6 +14,7 @@ data class FavoritesEntity(
     val imageUrl: String,
     val ingredients: List<Ingredient>,
     val instructions: List<Instructions>,
+    @PrimaryKey
     val mealId: Int,
     val name: String,
     val origin: String,
