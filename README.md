@@ -11,7 +11,10 @@ I've used three Firebase features : Auth (for authentication users), Firestore (
 
 
 
-https://github.com/zaurh/PolskiSmak/assets/56722725/9d5e4634-990a-45b7-8d5f-5f317147dd82
+
+https://github.com/zaurh/PolskiSmak/assets/56722725/ab20d67e-6d85-4418-a80a-3eae743b0db2
+
+
 
 
 
