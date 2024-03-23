@@ -24,19 +24,15 @@ Jetpack compose
 
 MVVM
 
-Firebase Auth (for authentication users)
+Clean Architecture
 
-Firebase Firestore (for storing user and retrieve them)
-
-Firebase Storage (for uploading images)
+Retrofit (Retrieving data from API)
 
 Coil (for loading images asynchronous)
 
 Navigation (for navigating between composables)
 
 Dagger Hilt (for dependency injection)
-
-And some 3rd party libraries.
 
 
 
