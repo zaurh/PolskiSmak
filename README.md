@@ -22,11 +22,15 @@ Kotlin
 
 Jetpack compose
 
+KTOR (Writing API and deploy on zaurapi.com)
+
+Room (Caching mechanism and adding recipes to local database)
+
 MVVM
 
 Clean Architecture
 
-Retrofit (Retrieving data from API)
+Retrofit (Retrieving recipes from API remotely)
 
 Coil (for loading images asynchronous)
 
