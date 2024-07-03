@@ -115,33 +115,33 @@ fun SettingsScreen(
                     .padding(it),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                SettingsItem(
-                    text = stringResource(id = R.string.language),
-                    leadingIcon = painterResource(id = R.drawable.language),
-                    onClick = {
-                        Toast.makeText(context, "Soon...", Toast.LENGTH_SHORT).show()
-//                        languageState = !language
-//                        if (languageState) {
-//                            currentLocale.value = Locale("en").toLanguageTag()
-//                            localeSelection(context = context, localeTag = currentLocale.value)
-//                        } else {
-//                            currentLocale.value = Locale("pl").toLanguageTag()
-//                            localeSelection(context = context, localeTag = currentLocale.value)
-//                        }
-//                        scope.launch {
-//                            dataStore.saveLanguage(languageState)
-//                        }
-                    }) {
-                    CustomSwitcher(
-                        enabled = false,
-                        switch = true,
-                        size = 40.dp,
-                        padding = 5.dp,
-                        firstIcon = "\uD83C\uDDF5\uD83C\uDDF1",
-                        secondIcon = "\uD83C\uDDEC\uD83C\uDDE7"
-                    )
-                }
-                Divider(modifier = Modifier.alpha(0.3f))
+//                SettingsItem(
+//                    text = stringResource(id = R.string.language),
+//                    leadingIcon = painterResource(id = R.drawable.language),
+//                    onClick = {
+//                        Toast.makeText(context, "Soon...", Toast.LENGTH_SHORT).show()
+////                        languageState = !language
+////                        if (languageState) {
+////                            currentLocale.value = Locale("en").toLanguageTag()
+////                            localeSelection(context = context, localeTag = currentLocale.value)
+////                        } else {
+////                            currentLocale.value = Locale("pl").toLanguageTag()
+////                            localeSelection(context = context, localeTag = currentLocale.value)
+////                        }
+////                        scope.launch {
+////                            dataStore.saveLanguage(languageState)
+////                        }
+//                    }) {
+//                    CustomSwitcher(
+//                        enabled = false,
+//                        switch = true,
+//                        size = 40.dp,
+//                        padding = 5.dp,
+//                        firstIcon = "\uD83C\uDDF5\uD83C\uDDF1",
+//                        secondIcon = "\uD83C\uDDEC\uD83C\uDDE7"
+//                    )
+//                }
+//                Divider(modifier = Modifier.alpha(0.3f))
                 SettingsItem(
                     text = stringResource(id = R.string.dark_mode),
                     leadingIcon = painterResource(id = R.drawable.dark_mode),
