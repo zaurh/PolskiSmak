@@ -2,7 +2,22 @@ package com.zaurh.polskismak.data.remote
 
 import com.zaurh.polskismak.data.local.entities.FavoritesEntity
 import com.zaurh.polskismak.data.local.entities.MealsEntity
+import com.zaurh.polskismak.data.remote.dto.MealData
 
+fun MealData.toMealsEntity() = MealsEntity(
+    cookTimeMinutes,
+    description,
+    dietary,
+    difficulty,
+    imageUrl,
+    ingredients,
+    instructions,
+    mealId,
+    name,
+    origin,
+    prepTimeMinutes,
+    tags
+)
 
 fun MealsEntity.toFavoritesEntity() = FavoritesEntity(
     cookTimeMinutes = cookTimeMinutes,

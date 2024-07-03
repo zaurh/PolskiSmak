@@ -98,7 +98,6 @@ fun MainScreen(
                         .padding(it),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-
                     Column(
                         Modifier
                             .fillMaxWidth()
@@ -145,7 +144,7 @@ fun MainScreen(
                         modifier = Modifier.padding(bottom = 80.dp),
                         columns = GridCells.Fixed(2),
                         content = {
-                            items(mealList.resultList) {
+                            items(mealList.resultList.shuffled()) {
                                 MealItem(
                                     mealsEntity = it,
                                     onClick = {

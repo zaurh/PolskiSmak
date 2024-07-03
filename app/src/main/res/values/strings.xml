@@ -10,6 +10,8 @@
     <string name="contact">Contact</string>
     <string name="search_recipe">Search recipe</string>
     <string name="search_favorite">Search favorite</string>
-    <string name="about_text">This application contains recipes of Polish cuisine. All recipes are retrieved from https://zaurapi.com.</string>
+    <string name="about_text">This application contains recipes of Polish cuisine. From traditional pierogi to hearty bigos, explore the rich and diverse flavors of Poland. Each recipe is carefully curated to bring you an authentic taste experience.
+
+Have any questions or feedback? I would love to hear from you! Feel free to reach out anytime.</string>
 
 </resources>

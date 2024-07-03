@@ -1,9 +1,9 @@
 package com.zaurh.polskismak.presentation.state
 
-import com.zaurh.polskismak.data.remote.dto.Quotes
+import com.zaurh.polskismak.data.remote.dto.QuoteData
 
 data class QuoteState(
-    val result: Quotes? = null,
+    val result: QuoteData? = null,
     val error: String = "",
     val isLoading: Boolean = false
 )

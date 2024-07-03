@@ -2,7 +2,7 @@ package com.zaurh.polskismak.domain.repo
 
 import com.zaurh.polskismak.common.Resource
 import com.zaurh.polskismak.data.local.entities.MealsEntity
-import com.zaurh.polskismak.data.remote.dto.Quotes
+import com.zaurh.polskismak.data.remote.dto.QuoteData
 import kotlinx.coroutines.flow.Flow
 
 interface MealsRepository {
@@ -11,6 +11,6 @@ interface MealsRepository {
 
     fun getMeal(id: Int): Flow<Resource<MealsEntity>>
 
-    fun getQuote(): Flow<Resource<Quotes>>
+    fun getQuote(): Flow<Resource<QuoteData>>
 
 }

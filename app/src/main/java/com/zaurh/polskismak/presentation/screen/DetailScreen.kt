@@ -1,6 +1,7 @@
 package com.zaurh.polskismak.presentation.screen
 
 import android.annotation.SuppressLint
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -44,12 +45,14 @@ import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
+import coil.compose.rememberImagePainter
 import com.zaurh.polskismak.R
 import com.zaurh.polskismak.data.remote.dto.Ingredient
 import com.zaurh.polskismak.data.remote.dto.Recipe
@@ -120,15 +123,25 @@ fun DetailScreen(
                     .background(MaterialTheme.colorScheme.surface)
                     .pin()
             )
-            AsyncImage(
+            Image(
+                contentScale = ContentScale.Inside,
                 modifier = Modifier
                     .background(MaterialTheme.colorScheme.surface)
                     .fillMaxWidth()
                     .height(imageSize)
                     .pin(),
-                model = specificMeal.result?.imageUrl,
-                contentDescription = ""
+                painter = rememberImagePainter(data = specificMeal.result?.imageUrl),
+                contentDescription = null
             )
+//            AsyncImage(
+//                modifier = Modifier
+//                    .background(MaterialTheme.colorScheme.surface)
+//                    .fillMaxWidth()
+//                    .height(imageSize)
+//                    .pin(),
+//                model = specificMeal.result?.imageUrl,
+//                contentDescription = ""
+//            )
 
             if (specificMeal.isLoading) {
                 AnimatedShimmer()

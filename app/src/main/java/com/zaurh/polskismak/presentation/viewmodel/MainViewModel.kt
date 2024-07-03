@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zaurh.polskismak.common.Resource
 import com.zaurh.polskismak.data.local.entities.MealsEntity
-import com.zaurh.polskismak.data.remote.dto.Quotes
+import com.zaurh.polskismak.data.remote.dto.QuoteData
 import com.zaurh.polskismak.domain.use_case.meals_usecase.GetMealsUseCase
 import com.zaurh.polskismak.domain.use_case.meals_usecase.GetQuoteUseCase
 import com.zaurh.polskismak.presentation.state.MealListState
@@ -94,7 +94,7 @@ class MainViewModel @Inject constructor(
 
                     is Resource.Error -> {
                         _quoteState.value = quoteState.value.copy(
-                            result = Quotes(
+                            result = QuoteData(
                                 "There is no sincerer love than the love of food.",
                                 "George Bernard Shaw"
                             ),

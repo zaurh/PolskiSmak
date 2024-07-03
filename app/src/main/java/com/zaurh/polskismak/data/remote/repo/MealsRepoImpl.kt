@@ -4,7 +4,8 @@ import com.zaurh.polskismak.common.Resource
 import com.zaurh.polskismak.data.local.MealsDatabase
 import com.zaurh.polskismak.data.local.entities.MealsEntity
 import com.zaurh.polskismak.data.remote.MealsApi
-import com.zaurh.polskismak.data.remote.dto.Quotes
+import com.zaurh.polskismak.data.remote.dto.QuoteData
+import com.zaurh.polskismak.data.remote.toMealsEntity
 import com.zaurh.polskismak.domain.repo.MealsRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -32,7 +33,8 @@ class MealsRepoImpl @Inject constructor(
             } else {
                 val remoteMealList = api.getMeals()
                 mealsDao.clearMeals()
-                mealsDao.insertMeals(remoteMealList.map { it })
+//                mealsDao.insertMeals(remoteMealList.map { it })
+                mealsDao.insertMeals(remoteMealList.mealList?.map { it.toMealsEntity() } ?: listOf())
             }
         } catch (e: HttpException) {
             emit(Resource.Error(e.localizedMessage ?: "Unexpected Error"))
@@ -48,7 +50,7 @@ class MealsRepoImpl @Inject constructor(
         try {
             emit(Resource.Loading())
             val specificMeal = api.getMeal(id)
-            emit(Resource.Success(specificMeal))
+            emit(Resource.Success(specificMeal.meal?.toMealsEntity()!!))
 
         } catch (e: HttpException) {
             emit(
@@ -65,11 +67,11 @@ class MealsRepoImpl @Inject constructor(
         }
     }
 
-    override fun getQuote(): Flow<Resource<Quotes>> = flow {
+    override fun getQuote(): Flow<Resource<QuoteData>> = flow {
         try {
             emit(Resource.Loading())
             val randomQuote = api.getQuote()
-            emit(Resource.Success(randomQuote))
+            emit(Resource.Success(randomQuote.quote ?: QuoteData("", "")))
         } catch (e: HttpException) {
             emit(
                 Resource.Error(

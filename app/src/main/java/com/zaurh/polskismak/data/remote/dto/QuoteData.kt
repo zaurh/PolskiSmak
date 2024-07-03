@@ -1,6 +1,6 @@
 package com.zaurh.polskismak.data.remote.dto
 
-data class Quotes(
+data class QuoteData(
     val quote: String,
     val author: String
 )

@@ -1,6 +1,6 @@
 package com.zaurh.polskismak.data.remote.dto
 
-data class MealsItem(
+data class MealData(
     val cookTimeMinutes: Int,
     val description: String,
     val dietary: String,

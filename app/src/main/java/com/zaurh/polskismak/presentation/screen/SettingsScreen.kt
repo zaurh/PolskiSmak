@@ -7,6 +7,7 @@ import android.app.LocaleManager
 import android.content.Context
 import android.os.Build
 import android.os.LocaleList
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.animation.core.animateDpAsState
@@ -118,20 +119,22 @@ fun SettingsScreen(
                     text = stringResource(id = R.string.language),
                     leadingIcon = painterResource(id = R.drawable.language),
                     onClick = {
-                        languageState = !language
-                        if (languageState) {
-                            currentLocale.value = Locale("en").toLanguageTag()
-                            localeSelection(context = context, localeTag = currentLocale.value)
-                        } else {
-                            currentLocale.value = Locale("pl").toLanguageTag()
-                            localeSelection(context = context, localeTag = currentLocale.value)
-                        }
-                        scope.launch {
-                            dataStore.saveLanguage(languageState)
-                        }
+                        Toast.makeText(context, "Soon...", Toast.LENGTH_SHORT).show()
+//                        languageState = !language
+//                        if (languageState) {
+//                            currentLocale.value = Locale("en").toLanguageTag()
+//                            localeSelection(context = context, localeTag = currentLocale.value)
+//                        } else {
+//                            currentLocale.value = Locale("pl").toLanguageTag()
+//                            localeSelection(context = context, localeTag = currentLocale.value)
+//                        }
+//                        scope.launch {
+//                            dataStore.saveLanguage(languageState)
+//                        }
                     }) {
                     CustomSwitcher(
-                        switch = language,
+                        enabled = false,
+                        switch = true,
                         size = 40.dp,
                         padding = 5.dp,
                         firstIcon = "\uD83C\uDDF5\uD83C\uDDF1",
@@ -191,6 +194,7 @@ fun SettingsScreen(
 private fun CustomSwitcher(
     switch: Boolean,
     size: Dp = 150.dp,
+    enabled: Boolean = true,
     firstIcon: String,
     secondIcon: String,
     padding: Dp = 10.dp,
@@ -209,7 +213,7 @@ private fun CustomSwitcher(
             .width(size * 2)
             .height(size)
             .clip(shape = parentShape)
-            .background(MaterialTheme.colorScheme.surface)
+            .background(if (enabled) MaterialTheme.colorScheme.surface else Color.LightGray)
     ) {
         Box(
             modifier = Modifier
@@ -217,8 +221,8 @@ private fun CustomSwitcher(
                 .offset(x = offset)
                 .padding(all = padding)
                 .clip(shape = toggleShape)
-                .background(MaterialTheme.colorScheme.primary)
-        ) {}
+                .background(if (enabled) MaterialTheme.colorScheme.primary else Color.White)
+        )
         Row(
             modifier = Modifier
                 .border(
