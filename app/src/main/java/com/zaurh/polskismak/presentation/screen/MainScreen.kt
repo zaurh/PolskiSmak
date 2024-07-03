@@ -144,7 +144,7 @@ fun MainScreen(
                         modifier = Modifier.padding(bottom = 80.dp),
                         columns = GridCells.Fixed(2),
                         content = {
-                            items(mealList.resultList.shuffled()) {
+                            items(mealList.resultList) {
                                 MealItem(
                                     mealsEntity = it,
                                     onClick = {
