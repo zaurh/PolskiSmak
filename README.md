@@ -1,18 +1,13 @@
 Polski Smak is a recipe app where you can find popular recipes for Poland dishes.
 
+[<img src="https://i.hizliresim.com/rbn6uq0.png" height="100">](https://play.google.com/store/apps/details?id=com.zaurh.polskismak)
+
+
 # Preview
 
 ![App Screenshot](https://i.hizliresim.com/8cotxxq.png)
 
-
-
-
-
 https://github.com/zaurh/PolskiSmak/assets/56722725/ab20d67e-6d85-4418-a80a-3eae743b0db2
-
-
-
-
 
 
 # This app contains: 
