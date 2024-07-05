@@ -1,4 +1,4 @@
-Polski Smak is a recipe app where you can find popular recipes of Poland dishes.
+Polski Smak is a recipe app where you can find popular recipes for Poland dishes.
 
 # Preview
 
@@ -22,7 +22,7 @@ Kotlin
 
 Jetpack compose
 
-KTOR (Writing API and deploy on zaurapi.com)
+KTOR (Writing API and deploy on [server](https://github.com/zaurh/PolskiSmak_Backend))
 
 Room (Caching mechanism and adding recipes to local database)
 
