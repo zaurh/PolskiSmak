@@ -1,92 +1,74 @@
 package com.zaurh.polskismak
 
-import android.annotation.SuppressLint
+import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Surface
-import androidx.compose.runtime.collectAsState
+import androidx.activity.enableEdgeToEdge
+import androidx.activity.viewModels
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import androidx.navigation.compose.rememberNavController
-import com.zaurh.polskismak.common.BottomNavigationBar
-import com.zaurh.polskismak.data_store.StoreSettings
-import com.zaurh.polskismak.navigation.Navig
-import com.zaurh.polskismak.navigation.Screen
-import com.zaurh.polskismak.presentation.viewmodel.SplashViewModel
-import com.zaurh.polskismak.ui.theme.ZaurH
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zaurh.polskismak.app.AppState
+import com.zaurh.polskismak.app.AppViewModel
+import com.zaurh.polskismak.app.PolskiSmakAppContent
+import com.zaurh.polskismak.designsystem.theme.PolskiSmakTheme
+import com.zaurh.polskismak.domain.model.ThemeMode
+import com.zaurh.polskismak.navigation.HomeRoute
+import com.zaurh.polskismak.navigation.OnboardingRoute
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
-import javax.inject.Inject
 
-@OptIn(ExperimentalMaterial3Api::class)
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-    @Inject
-    lateinit var splashViewModel: SplashViewModel
 
-    @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
+    private val appViewModel: AppViewModel by viewModels()
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
-        installSplashScreen().setKeepOnScreenCondition {
-            !splashViewModel.isLoading.value
-        }
+        splashScreen.setKeepOnScreenCondition { appViewModel.state.value is AppState.Loading }
+        enableEdgeToEdge()
+
         setContent {
-            val context = LocalContext.current
-            val dataStore = StoreSettings(context)
-            var darkTheme by remember { mutableStateOf(false) }
-            val savedDarkMode = dataStore.getDarkMode.collectAsState(initial = false)
-            val savedLanguageState = dataStore.getLanguage.collectAsState(initial = false)
-            val scope = rememberCoroutineScope()
+            val state by appViewModel.state.collectAsStateWithLifecycle()
+            val ready = state as? AppState.Ready ?: return@setContent
+            val darkTheme = ready.themeMode.isDark()
 
-            ZaurH(darkTheme = savedDarkMode.value ?: false) {
-                val navController = rememberNavController()
-
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    val screen by splashViewModel.startDestination
-                    Scaffold(
-                        content = {
-                            Navig(
-                                navController = navController,
-                                startDestination = screen,
-                                darkTheme = savedDarkMode.value ?: false,
-                                language = savedLanguageState.value ?: false
-                            ) {
-                                scope.launch {
-                                    darkTheme = !(savedDarkMode.value ?: false)
-                                    dataStore.saveDarkMode(darkTheme)
-                                }
-                            }
-                        },
-                        bottomBar = {
-                            if (screen != Screen.Welcome.route) {
-                                BottomNavigationBar(navController = navController)
-                            }
-                        }
-                    )
-                }
+            SystemBarsEffect(darkTheme)
+            PolskiSmakTheme(darkTheme = darkTheme) {
+                // Decided once; finishing onboarding later navigates instead of swapping the graph.
+                val startDestination = remember { if (ready.onboardingCompleted) HomeRoute else OnboardingRoute }
+                PolskiSmakAppContent(startDestination = startDestination)
             }
         }
     }
+
+    @Composable
+    private fun ThemeMode.isDark(): Boolean = when (this) {
+        ThemeMode.SYSTEM -> isSystemInDarkTheme()
+        ThemeMode.LIGHT -> false
+        ThemeMode.DARK -> true
+    }
+
+    /** Keeps status/navigation bar icons readable when the in-app theme differs from the system one. */
+    @Composable
+    private fun SystemBarsEffect(darkTheme: Boolean) {
+        DisposableEffect(darkTheme) {
+            enableEdgeToEdge(
+                statusBarStyle = SystemBarStyle.auto(Color.TRANSPARENT, Color.TRANSPARENT) { darkTheme },
+                navigationBarStyle = SystemBarStyle.auto(LightScrim, DarkScrim) { darkTheme },
+            )
+            onDispose {}
+        }
+    }
+
+    private companion object {
+        val LightScrim = Color.argb(0xe6, 0xFF, 0xFF, 0xFF)
+        val DarkScrim = Color.argb(0x80, 0x1b, 0x1b, 0x1b)
+    }
 }
-
-
-
-
-
-
-
-

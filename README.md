@@ -10,31 +10,25 @@ Polski Smak is a recipe app where you can find popular recipes for Polish dishes
 https://github.com/zaurh/PolskiSmak/assets/56722725/ab20d67e-6d85-4418-a80a-3eae743b0db2
 
 
-# This app contains: 
+# This app contains:
 
+Kotlin & Jetpack Compose (Material 3, edge-to-edge, light/dark theme)
 
-Kotlin
+MVI architecture – every screen has a `Contract` (State / Intent / Effect), a ViewModel built on a small `MviViewModel` base, and a stateless Composable
 
-Jetpack compose
+Clean Architecture (domain models & repository interfaces, data implementations)
 
-KTOR (Writing API and deploy on [server](https://github.com/zaurh/PolskiSmak_Backend))
+Fully offline – all recipes and images ship inside the app, no internet permission
 
-Room (Caching mechanism and adding recipes to local database)
+DataStore (favorites, theme and onboarding state)
 
-MVVM
+Type-safe Navigation Compose
 
-Clean Architecture
+Dagger Hilt + KSP (dependency injection)
 
-Retrofit (Retrieving recipes from API remotely)
+Unit tests for the ViewModels and bundled data
 
-Coil (for loading images asynchronous)
-
-Navigation (for navigating between composables)
-
-Dagger Hilt (for dependency injection)
-
-
-
+English & Polish (per-app language on Android 13+)
 
 ## License
 ```

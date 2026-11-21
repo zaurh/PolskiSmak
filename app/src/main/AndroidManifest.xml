@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- No permissions needed: all recipes and images are bundled with the app. -->
 
     <application
         android:name=".PolskiSmakApp"
@@ -13,16 +12,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher3_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PolskiSmak"
-        tools:targetApi="31">
+        android:theme="@style/Theme.PolskiSmak.Starting">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.PolskiSmak">
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

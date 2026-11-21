@@ -1,17 +1,104 @@
 <resources>
     <string name="app_name" translatable="false">Polski Smak</string>
-    <string name="home">Home</string>
-    <string name="favorites">Favorites</string>
-    <string name="settings">Settings</string>
-    <string name="language">Language</string>
-    <string name="dark_mode">Dark mode</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Recipes</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="share">Share</string>
     <string name="close">Close</string>
-    <string name="about">About</string>
-    <string name="contact">Contact</string>
-    <string name="search_recipe">Search recipe</string>
-    <string name="search_favorite">Search favorite</string>
-    <string name="about_text">This application contains recipes of Polish cuisine. From traditional pierogi to hearty bigos, explore the rich and diverse flavors of Poland. Each recipe is carefully curated to bring you an authentic taste experience.
+    <string name="undo">Undo</string>
+    <string name="clear_search">Clear search</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="minutes_short">%d min</string>
 
-Have any questions or feedback? I would love to hear from you! Feel free to reach out anytime.</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_moderate">Medium</string>
+    <string name="difficulty_hard">Hard</string>
 
+    <string name="dietary_vegan">Vegan</string>
+    <string name="dietary_vegetarian">Vegetarian</string>
+    <string name="dietary_meat">Meat</string>
+
+    <string name="unit_grams">g</string>
+    <string name="unit_kilograms">kg</string>
+    <string name="unit_milliliters">ml</string>
+    <string name="unit_liters">l</string>
+    <string name="unit_teaspoons">tsp</string>
+    <string name="unit_tablespoons">tbsp</string>
+    <string name="unit_cup">cup</string>
+    <string name="unit_cups">cups</string>
+    <string name="unit_piece">pc</string>
+    <string name="unit_pieces">pcs</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">Authentic Polish recipes, always at hand</string>
+    <string name="home_quote_hint">Tap for another quote</string>
+    <string name="search_recipes">Search recipes</string>
+    <string name="filter_all">All</string>
+    <string name="filter_quick">30 min or less</string>
+    <string name="filter_easy">Easy</string>
+    <string name="filter_vegetarian">Vegetarian</string>
+    <string name="surprise_title">Not sure what to cook?</string>
+    <string name="surprise_subtitle">Let us pick a recipe for you</string>
+    <string name="surprise_action">Surprise me</string>
+    <string name="home_section_recipes">Recipes (%d)</string>
+    <string name="home_empty_title">No recipes found</string>
+    <string name="home_empty_message">Try a different search or filter.</string>
+
+    <!-- Detail -->
+    <string name="detail_time_split">Prep %1$d · Cook %2$d</string>
+    <string name="detail_difficulty">Difficulty</string>
+    <string name="detail_ingredients">Ingredients</string>
+    <string name="tab_ingredients">Ingredients (%d)</string>
+    <string name="tab_steps">Steps (%d)</string>
+    <string name="steps_progress">%1$d of %2$d steps done</string>
+    <string name="steps_hint">Tap a step to mark it as done. The screen stays on while you cook.</string>
+    <string name="detail_not_found">Recipe not found</string>
+    <string name="share_ingredients_header">Ingredients</string>
+    <string name="share_steps_header">Steps</string>
+    <string name="share_footer">Shared from Polski Smak</string>
+    <string name="share_chooser_title">Share recipe</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Favorites</string>
+    <string name="search_favorites">Search favorites</string>
+    <string name="favorites_empty_title">No favorites yet</string>
+    <string name="favorites_empty_message">Tap the heart on any recipe to save it here.</string>
+    <string name="favorites_browse">Browse recipes</string>
+    <string name="favorites_no_results">None of your favorites match this search.</string>
+    <string name="favorites_removed">%s removed from favorites</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_summary">Change the app language</string>
+    <string name="settings_about_section">About</string>
+    <string name="settings_about">About Polski Smak</string>
+    <string name="settings_contact">Contact</string>
+    <string name="settings_contact_summary">Questions or feedback? Write to me</string>
+    <string name="settings_rate">Rate on Google Play</string>
+    <string name="settings_rate_summary">It really helps!</string>
+    <string name="settings_version">Version %s</string>
+    <string name="about_text">This app contains recipes from Polish cuisine. From traditional pierogi to hearty bigos, explore the rich and diverse flavours of Poland. Every recipe is included in the app, so you can cook even without an internet connection.\n\nHave any questions or feedback? I would love to hear from you!</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Witaj!</string>
+    <string name="onboarding_desc_1">Welcome to Polski Smak – discover the flavours of traditional Polish cuisine.</string>
+    <string name="onboarding_title_2">Find recipes</string>
+    <string name="onboarding_desc_2">From pierogi to bigos – step-by-step recipes that work offline.</string>
+    <string name="onboarding_title_3">Smacznego!</string>
+    <string name="onboarding_desc_3">Save your favourites and start cooking.</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Get started</string>
 </resources>
