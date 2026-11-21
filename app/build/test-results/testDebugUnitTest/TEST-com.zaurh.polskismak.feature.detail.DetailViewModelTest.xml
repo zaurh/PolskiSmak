@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zaurh.polskismak.feature.detail.DetailViewModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-21T15:34:34.925Z" hostname="KapMac548-M.local" time="0.048">
+  <properties/>
+  <testcase name="favorite toggle is persisted and reflected" classname="com.zaurh.polskismak.feature.detail.DetailViewModelTest" time="0.028"/>
+  <testcase name="steps can be checked off and unchecked" classname="com.zaurh.polskismak.feature.detail.DetailViewModelTest" time="0.0"/>
+  <testcase name="unknown id shows not found" classname="com.zaurh.polskismak.feature.detail.DetailViewModelTest" time="0.001"/>
+  <testcase name="tab selection and share effect" classname="com.zaurh.polskismak.feature.detail.DetailViewModelTest" time="0.019"/>
+  <testcase name="loads the requested recipe" classname="com.zaurh.polskismak.feature.detail.DetailViewModelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

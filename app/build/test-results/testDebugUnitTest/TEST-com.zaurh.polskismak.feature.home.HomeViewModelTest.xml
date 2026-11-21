@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zaurh.polskismak.feature.home.HomeViewModelTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-21T15:34:34.977Z" hostname="KapMac548-M.local" time="0.006">
+  <properties/>
+  <testcase name="initial state shows all recipes, a quote and saved favorites" classname="com.zaurh.polskismak.feature.home.HomeViewModelTest" time="0.003"/>
+  <testcase name="query and filter combine" classname="com.zaurh.polskismak.feature.home.HomeViewModelTest" time="0.001"/>
+  <testcase name="toggle favorite adds and removes" classname="com.zaurh.polskismak.feature.home.HomeViewModelTest" time="0.0"/>
+  <testcase name="shuffle quote changes the quote" classname="com.zaurh.polskismak.feature.home.HomeViewModelTest" time="0.001"/>
+  <testcase name="surprise me picks from the visible recipes" classname="com.zaurh.polskismak.feature.home.HomeViewModelTest" time="0.001"/>
+  <testcase name="clicking a meal emits navigation effect" classname="com.zaurh.polskismak.feature.home.HomeViewModelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

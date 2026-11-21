@@ -1,0 +1,1269 @@
+Marking id:androidx_compose_ui_view_composition_context:2131165222 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:consume_window_insets_tag:2131165228 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_language:2131427458 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_language_summary:2131427459 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:theme_dark:2131427485 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:theme_light:2131427486 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:theme_system:2131427487 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:home_section_recipes:2131427371 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_0:2131165185 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_1:2131165186 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_2:2131165197 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_3:2131165208 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_4:2131165211 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_5:2131165212 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_6:2131165213 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_7:2131165214 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_8:2131165215 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_9:2131165216 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_10:2131165187 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_11:2131165188 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_12:2131165189 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_13:2131165190 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_14:2131165191 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_15:2131165192 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_16:2131165193 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_17:2131165194 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_18:2131165195 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_19:2131165196 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_20:2131165198 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_21:2131165199 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_22:2131165200 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_23:2131165201 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_24:2131165202 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_25:2131165203 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_26:2131165204 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_27:2131165205 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_28:2131165206 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_29:2131165207 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_30:2131165209 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_custom_action_31:2131165210 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:app_name:2131427331 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:home_subtitle:2131427372 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:hide_in_inspector_tag:2131165235 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_piece:2131427497 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_pieces:2131427498 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_cup:2131427491 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_cups:2131427492 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_tablespoons:2131427499 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_teaspoons:2131427500 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_liters:2131427495 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_milliliters:2131427496 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_kilograms:2131427494 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:unit_grams:2131427493 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:difficulty_hard:2131427355 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:difficulty_moderate:2131427356 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:difficulty_easy:2131427354 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_butter:2131099657 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_onion:2131099690 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_sauerkraut:2131099703 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_potato:2131099696 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_salt:2131099702 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_white_pepper:2131099712 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_potato_filling:2131099697 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_sour_cream:2131099705 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_egg:2131099669 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_flour:2131099671 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_baking_powder:2131099651 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_dough:2131099665 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_pierogi:2131099692 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_cabbage:2131099658 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_ground_pork:2131099678 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_neutral_oil:2131099688 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_garlic:2131099672 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_rice:2131099701 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_chicken_stock:2131099662 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_ground_black_pepper:2131099677 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_stuffed_cabbage_rolls:2131099706 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_golabki:2131099673 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_tomato_passata:2131099708 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_tomato_paste:2131099709 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_tomato_sauce:2131099710 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_chicken_thigh:2131099663 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_kielbasa:2131099680 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_dried_porcini_mushroom:2131099667 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_prunes:2131099698 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_caraway_seeds:2131099659 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_dried_marjoram:2131099666 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_paprika:2131099691 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_bay_leaf:2131099652 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_olive_oil:2131099689 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_water:2131099711 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_bigos:2131099655 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_pork_chop:2131099695 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_bread_crumb:2131099656 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_kotlet_schabowy:2131099684 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_ground_beef:2131099676 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_cracker_crumb:2131099664 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_milk:2131099686 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_shortening:2131099704 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_kotlet_mielony:2131099683 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_beef:2131099653 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_carrot:2131099660 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_red_bell_pepper:2131099700 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_mushroom:2131099687 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_gulasz:2131099679 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_kluski_slaskie:2131099681 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_dry_yeast:2131099668 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_sugar:2131099707 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_pyzy:2131099699 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_plum:2131099694 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_knedle:2131099682 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_farmers_cheese:2131099670 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_leniwe:2131099685 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_placki_ziemniaczane:2131099693 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_golonka:2131099674 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_celery_root:2131099661 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_allspice_berry:2131099650 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_beer:2131099654 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:food_golonka_w_piwie:2131099675 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:minutes_short:2131427432 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:view_tree_disjoint_parent:2131165274 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:pooling_container_listener_holder_tag:2131165249 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:favorites_removed:2131427362 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:undo:2131427490 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_window_insets_animation_callback:2131165269 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_on_apply_window_listener:2131165260 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_compat_insets_dispatch:2131165259 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:wrapped_composition_tag:2131165280 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_screen_reader_focusable:2131165263 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_heading:2131165257 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_pane_title:2131165258 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_state_description:2131165264 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_clickable_spans:2131165256 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:accessibility_action_clickable_span:2131165184 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_accessibility_actions:2131165255 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking attr:alpha:2130903041 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking attr:lStar:2130903061 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:indeterminate:2131427374 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:state_off:2131427472 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:state_on:2131427473 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:selected:2131427452 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:not_selected:2131427437 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:template_percent:2131427484 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:in_progress:2131427373 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:state_empty:2131427471 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:nav_home:2131427434 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:nav_favorites:2131427433 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:nav_settings:2131427435 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:search_recipes:2131427451 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:detail_not_found:2131427349 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:detail_time_split:2131427350 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:detail_difficulty:2131427347 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:detail_ingredients:2131427348 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:dietary_meat:2131427351 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:dietary_vegetarian:2131427353 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:dietary_vegan:2131427352 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_unhandled_key_event_manager:2131165267 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:inspection_slot_table_set:2131165239 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:tab:2131427481 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:switch_role:2131427480 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking attr:windowSplashScreenBackground:2130903084 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking attr:windowSplashScreenAnimatedIcon:2130903082 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking attr:splashScreenIconSize:2130903077 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking attr:postSplashScreenTheme:2130903072 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:share_ingredients_header:2131427468 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:share_steps_header:2131427469 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:share_footer:2131427467 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:share_chooser_title:2131427466 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_appearance:2131427455 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:default_error_message:2131427345 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:view_tree_saved_state_registry_owner:2131165277 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:hide_graphics_layer_in_inspector_tag:2131165233 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:androidx_startup:2131427330 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:is_pooling_container_tag:2131165240 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:compose_prefetch_scheduler:2131165226 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:view_tree_lifecycle_owner:2131165275 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:view_tree_view_model_store_owner:2131165278 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_version:2131427464 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_about_section:2131427454 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:home_quote_hint:2131427370 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:surprise_title:2131427479 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:surprise_subtitle:2131427478 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:m3c_dialog:2131427411 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:clear_search:2131427341 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:compose_view_saveable_id_tag:2131165227 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:filter_vegetarian:2131427367 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:filter_easy:2131427365 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:filter_quick:2131427366 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:filter_all:2131427364 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_start:2131427443 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_next:2131427441 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_title:2131427463 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:about_text:2131427328 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:home_empty_title:2131427369 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:home_empty_message:2131427368 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:remove_from_favorites:2131427449 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:favorites_title:2131427363 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:share:2131427465 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:back:2131427333 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:close:2131427342 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_skip:2131427442 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:surprise_action:2131427477 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:favorites_no_results:2131427361 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:favorites_browse:2131427358 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking style:DialogWindowTheme:2131492871 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking style:FloatingDialogWindowTheme:2131492874 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:view_tree_on_back_pressed_dispatcher_owner:2131165276 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:tag_unhandled_key_listeners:2131165268 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:favorites_empty_title:2131427360 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:favorites_empty_message:2131427359 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:search_favorites:2131427450 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_title_1:2131427444 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_desc_1:2131427438 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:logo:2131099720 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_title_2:2131427445 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_desc_2:2131427439 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:onboarding1:2131099734 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_title_3:2131427446 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:onboarding_desc_3:2131427440 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking drawable:onboarding2:2131099735 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:tab_steps:2131427483 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:tab_ingredients:2131427482 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:steps_progress:2131427476 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:steps_hint:2131427475 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking id:report_drawn:2131165250 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_about:2131427453 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_contact:2131427456 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_contact_summary:2131427457 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_rate:2131427460 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_rate_summary:2131427461 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:settings_theme:2131427462 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:add_to_favorites:2131427329 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:default_popup_window_title:2131427346 reachable: referenced from in_memory_r8_base_classes0.dex
+Marking string:autofill:2131427332 reachable: referenced from in_memory_r8_base_classes0.dex
+@com.zaurh.polskismak:anim/fragment_fast_out_extra_slow_in : reachable=false
+@com.zaurh.polskismak:animator/fragment_close_enter : reachable=false
+    @com.zaurh.polskismak:anim/fragment_fast_out_extra_slow_in
+@com.zaurh.polskismak:animator/fragment_close_exit : reachable=false
+    @com.zaurh.polskismak:anim/fragment_fast_out_extra_slow_in
+@com.zaurh.polskismak:animator/fragment_fade_enter : reachable=false
+@com.zaurh.polskismak:animator/fragment_fade_exit : reachable=false
+@com.zaurh.polskismak:animator/fragment_open_enter : reachable=false
+    @com.zaurh.polskismak:anim/fragment_fast_out_extra_slow_in
+@com.zaurh.polskismak:animator/fragment_open_exit : reachable=false
+    @com.zaurh.polskismak:anim/fragment_fast_out_extra_slow_in
+@com.zaurh.polskismak:attr/action : reachable=false
+@com.zaurh.polskismak:attr/alpha : reachable=true
+@com.zaurh.polskismak:attr/argType : reachable=false
+@com.zaurh.polskismak:attr/data : reachable=false
+@com.zaurh.polskismak:attr/dataPattern : reachable=false
+@com.zaurh.polskismak:attr/destination : reachable=false
+@com.zaurh.polskismak:attr/enterAnim : reachable=false
+@com.zaurh.polskismak:attr/exitAnim : reachable=false
+@com.zaurh.polskismak:attr/font : reachable=false
+@com.zaurh.polskismak:attr/fontProviderAuthority : reachable=false
+@com.zaurh.polskismak:attr/fontProviderCerts : reachable=false
+@com.zaurh.polskismak:attr/fontProviderFallbackQuery : reachable=false
+@com.zaurh.polskismak:attr/fontProviderFetchStrategy : reachable=false
+@com.zaurh.polskismak:attr/fontProviderFetchTimeout : reachable=false
+@com.zaurh.polskismak:attr/fontProviderPackage : reachable=false
+@com.zaurh.polskismak:attr/fontProviderQuery : reachable=false
+@com.zaurh.polskismak:attr/fontProviderSystemFontFamily : reachable=false
+@com.zaurh.polskismak:attr/fontStyle : reachable=false
+@com.zaurh.polskismak:attr/fontVariationSettings : reachable=false
+@com.zaurh.polskismak:attr/fontWeight : reachable=false
+@com.zaurh.polskismak:attr/graph : reachable=false
+@com.zaurh.polskismak:attr/lStar : reachable=true
+@com.zaurh.polskismak:attr/launchSingleTop : reachable=false
+@com.zaurh.polskismak:attr/mimeType : reachable=false
+@com.zaurh.polskismak:attr/navGraph : reachable=false
+@com.zaurh.polskismak:attr/nestedScrollViewStyle : reachable=false
+@com.zaurh.polskismak:attr/nullable : reachable=false
+@com.zaurh.polskismak:attr/popEnterAnim : reachable=false
+@com.zaurh.polskismak:attr/popExitAnim : reachable=false
+@com.zaurh.polskismak:attr/popUpTo : reachable=false
+@com.zaurh.polskismak:attr/popUpToInclusive : reachable=false
+@com.zaurh.polskismak:attr/popUpToSaveState : reachable=false
+@com.zaurh.polskismak:attr/postSplashScreenTheme : reachable=true
+@com.zaurh.polskismak:attr/queryPatterns : reachable=false
+@com.zaurh.polskismak:attr/restoreState : reachable=false
+@com.zaurh.polskismak:attr/route : reachable=false
+@com.zaurh.polskismak:attr/shortcutMatchRequired : reachable=false
+@com.zaurh.polskismak:attr/splashScreenIconSize : reachable=true
+@com.zaurh.polskismak:attr/startDestination : reachable=false
+@com.zaurh.polskismak:attr/targetPackage : reachable=false
+@com.zaurh.polskismak:attr/ttcIndex : reachable=false
+@com.zaurh.polskismak:attr/uri : reachable=false
+@com.zaurh.polskismak:attr/windowSplashScreenAnimatedIcon : reachable=true
+@com.zaurh.polskismak:attr/windowSplashScreenAnimationDuration : reachable=false
+@com.zaurh.polskismak:attr/windowSplashScreenBackground : reachable=true
+@com.zaurh.polskismak:attr/windowSplashScreenIconBackgroundColor : reachable=false
+@com.zaurh.polskismak:color/androidx_core_ripple_material_light : reachable=false
+@com.zaurh.polskismak:color/androidx_core_secondary_text_default_material_light : reachable=false
+@com.zaurh.polskismak:color/call_notification_answer_color : reachable=false
+@com.zaurh.polskismak:color/call_notification_decline_color : reachable=false
+@com.zaurh.polskismak:color/ic_launcher2_background : reachable=false
+@com.zaurh.polskismak:color/ic_launcher3_background : reachable=false
+@com.zaurh.polskismak:color/notification_action_color_filter : reachable=false
+    @com.zaurh.polskismak:color/androidx_core_secondary_text_default_material_light
+@com.zaurh.polskismak:color/notification_icon_bg_color : reachable=false
+@com.zaurh.polskismak:color/splash_background : reachable=false
+@com.zaurh.polskismak:color/vector_tint_color : reachable=false
+@com.zaurh.polskismak:color/vector_tint_theme_color : reachable=false
+@com.zaurh.polskismak:color/window_background : reachable=false
+@com.zaurh.polskismak:dimen/compat_button_inset_horizontal_material : reachable=false
+@com.zaurh.polskismak:dimen/compat_button_inset_vertical_material : reachable=false
+@com.zaurh.polskismak:dimen/compat_button_padding_horizontal_material : reachable=false
+@com.zaurh.polskismak:dimen/compat_button_padding_vertical_material : reachable=false
+@com.zaurh.polskismak:dimen/compat_control_corner_material : reachable=false
+@com.zaurh.polskismak:dimen/compat_notification_large_icon_max_height : reachable=false
+@com.zaurh.polskismak:dimen/compat_notification_large_icon_max_width : reachable=false
+@com.zaurh.polskismak:dimen/notification_action_icon_size : reachable=false
+@com.zaurh.polskismak:dimen/notification_action_text_size : reachable=false
+@com.zaurh.polskismak:dimen/notification_big_circle_margin : reachable=false
+@com.zaurh.polskismak:dimen/notification_content_margin_start : reachable=false
+@com.zaurh.polskismak:dimen/notification_large_icon_height : reachable=false
+@com.zaurh.polskismak:dimen/notification_large_icon_width : reachable=false
+@com.zaurh.polskismak:dimen/notification_main_column_padding_top : reachable=false
+@com.zaurh.polskismak:dimen/notification_media_narrow_margin : reachable=false
+@com.zaurh.polskismak:dimen/notification_right_icon_size : reachable=false
+@com.zaurh.polskismak:dimen/notification_right_side_padding_top : reachable=false
+@com.zaurh.polskismak:dimen/notification_small_icon_background_padding : reachable=false
+@com.zaurh.polskismak:dimen/notification_small_icon_size_as_large : reachable=false
+@com.zaurh.polskismak:dimen/notification_subtext_size : reachable=false
+@com.zaurh.polskismak:dimen/notification_top_pad : reachable=false
+@com.zaurh.polskismak:dimen/notification_top_pad_large_text : reachable=false
+@com.zaurh.polskismak:dimen/splashscreen_icon_mask_size_no_background : reachable=false
+@com.zaurh.polskismak:dimen/splashscreen_icon_mask_size_with_background : reachable=false
+@com.zaurh.polskismak:dimen/splashscreen_icon_mask_stroke_no_background : reachable=false
+@com.zaurh.polskismak:dimen/splashscreen_icon_mask_stroke_with_background : reachable=false
+@com.zaurh.polskismak:dimen/splashscreen_icon_size : reachable=false
+    @com.zaurh.polskismak:attr/splashScreenIconSize
+@com.zaurh.polskismak:dimen/splashscreen_icon_size_no_background : reachable=false
+@com.zaurh.polskismak:dimen/splashscreen_icon_size_with_background : reachable=false
+@com.zaurh.polskismak:drawable/compat_splash_screen : reachable=false
+    @com.zaurh.polskismak:attr/windowSplashScreenBackground
+    @com.zaurh.polskismak:drawable/icon_background
+    @com.zaurh.polskismak:dimen/splashscreen_icon_size_with_background
+    @com.zaurh.polskismak:attr/windowSplashScreenAnimatedIcon
+    @com.zaurh.polskismak:dimen/splashscreen_icon_mask_size_with_background
+    @com.zaurh.polskismak:dimen/splashscreen_icon_mask_stroke_with_background
+@com.zaurh.polskismak:drawable/compat_splash_screen_no_icon_background : reachable=false
+    @com.zaurh.polskismak:attr/windowSplashScreenBackground
+    @com.zaurh.polskismak:attr/windowSplashScreenAnimatedIcon
+    @com.zaurh.polskismak:dimen/splashscreen_icon_size_no_background
+    @com.zaurh.polskismak:dimen/splashscreen_icon_mask_size_no_background
+    @com.zaurh.polskismak:dimen/splashscreen_icon_mask_stroke_no_background
+@com.zaurh.polskismak:drawable/food_allspice_berry : reachable=true
+@com.zaurh.polskismak:drawable/food_baking_powder : reachable=true
+@com.zaurh.polskismak:drawable/food_bay_leaf : reachable=true
+@com.zaurh.polskismak:drawable/food_beef : reachable=true
+@com.zaurh.polskismak:drawable/food_beer : reachable=true
+@com.zaurh.polskismak:drawable/food_bigos : reachable=true
+@com.zaurh.polskismak:drawable/food_bread_crumb : reachable=true
+@com.zaurh.polskismak:drawable/food_butter : reachable=true
+@com.zaurh.polskismak:drawable/food_cabbage : reachable=true
+@com.zaurh.polskismak:drawable/food_caraway_seeds : reachable=true
+@com.zaurh.polskismak:drawable/food_carrot : reachable=true
+@com.zaurh.polskismak:drawable/food_celery_root : reachable=true
+@com.zaurh.polskismak:drawable/food_chicken_stock : reachable=true
+@com.zaurh.polskismak:drawable/food_chicken_thigh : reachable=true
+@com.zaurh.polskismak:drawable/food_cracker_crumb : reachable=true
+@com.zaurh.polskismak:drawable/food_dough : reachable=true
+@com.zaurh.polskismak:drawable/food_dried_marjoram : reachable=true
+@com.zaurh.polskismak:drawable/food_dried_porcini_mushroom : reachable=true
+@com.zaurh.polskismak:drawable/food_dry_yeast : reachable=true
+@com.zaurh.polskismak:drawable/food_egg : reachable=true
+@com.zaurh.polskismak:drawable/food_farmers_cheese : reachable=true
+@com.zaurh.polskismak:drawable/food_flour : reachable=true
+@com.zaurh.polskismak:drawable/food_garlic : reachable=true
+@com.zaurh.polskismak:drawable/food_golabki : reachable=true
+@com.zaurh.polskismak:drawable/food_golonka : reachable=true
+@com.zaurh.polskismak:drawable/food_golonka_w_piwie : reachable=true
+@com.zaurh.polskismak:drawable/food_ground_beef : reachable=true
+@com.zaurh.polskismak:drawable/food_ground_black_pepper : reachable=true
+@com.zaurh.polskismak:drawable/food_ground_pork : reachable=true
+@com.zaurh.polskismak:drawable/food_gulasz : reachable=true
+@com.zaurh.polskismak:drawable/food_kielbasa : reachable=true
+@com.zaurh.polskismak:drawable/food_kluski_slaskie : reachable=true
+@com.zaurh.polskismak:drawable/food_knedle : reachable=true
+@com.zaurh.polskismak:drawable/food_kotlet_mielony : reachable=true
+@com.zaurh.polskismak:drawable/food_kotlet_schabowy : reachable=true
+@com.zaurh.polskismak:drawable/food_leniwe : reachable=true
+@com.zaurh.polskismak:drawable/food_milk : reachable=true
+@com.zaurh.polskismak:drawable/food_mushroom : reachable=true
+@com.zaurh.polskismak:drawable/food_neutral_oil : reachable=true
+@com.zaurh.polskismak:drawable/food_olive_oil : reachable=true
+@com.zaurh.polskismak:drawable/food_onion : reachable=true
+@com.zaurh.polskismak:drawable/food_paprika : reachable=true
+@com.zaurh.polskismak:drawable/food_pierogi : reachable=true
+@com.zaurh.polskismak:drawable/food_placki_ziemniaczane : reachable=true
+@com.zaurh.polskismak:drawable/food_plum : reachable=true
+@com.zaurh.polskismak:drawable/food_pork_chop : reachable=true
+@com.zaurh.polskismak:drawable/food_potato : reachable=true
+@com.zaurh.polskismak:drawable/food_potato_filling : reachable=true
+@com.zaurh.polskismak:drawable/food_prunes : reachable=true
+@com.zaurh.polskismak:drawable/food_pyzy : reachable=true
+@com.zaurh.polskismak:drawable/food_red_bell_pepper : reachable=true
+@com.zaurh.polskismak:drawable/food_rice : reachable=true
+@com.zaurh.polskismak:drawable/food_salt : reachable=true
+@com.zaurh.polskismak:drawable/food_sauerkraut : reachable=true
+@com.zaurh.polskismak:drawable/food_shortening : reachable=true
+@com.zaurh.polskismak:drawable/food_sour_cream : reachable=true
+@com.zaurh.polskismak:drawable/food_stuffed_cabbage_rolls : reachable=true
+@com.zaurh.polskismak:drawable/food_sugar : reachable=true
+@com.zaurh.polskismak:drawable/food_tomato_passata : reachable=true
+@com.zaurh.polskismak:drawable/food_tomato_paste : reachable=true
+@com.zaurh.polskismak:drawable/food_tomato_sauce : reachable=true
+@com.zaurh.polskismak:drawable/food_water : reachable=true
+@com.zaurh.polskismak:drawable/food_white_pepper : reachable=true
+@com.zaurh.polskismak:drawable/ic_call_answer : reachable=false
+@com.zaurh.polskismak:drawable/ic_call_answer_low : reachable=false
+@com.zaurh.polskismak:drawable/ic_call_answer_video : reachable=false
+@com.zaurh.polskismak:drawable/ic_call_answer_video_low : reachable=false
+@com.zaurh.polskismak:drawable/ic_call_decline : reachable=false
+@com.zaurh.polskismak:drawable/ic_call_decline_low : reachable=false
+@com.zaurh.polskismak:drawable/icon_background : reachable=false
+    @com.zaurh.polskismak:attr/windowSplashScreenIconBackgroundColor
+@com.zaurh.polskismak:drawable/logo : reachable=true
+@com.zaurh.polskismak:drawable/notification_action_background : reachable=false
+    @com.zaurh.polskismak:color/androidx_core_ripple_material_light
+    @com.zaurh.polskismak:dimen/compat_button_inset_horizontal_material
+    @com.zaurh.polskismak:dimen/compat_button_inset_vertical_material
+    @com.zaurh.polskismak:dimen/compat_control_corner_material
+    @com.zaurh.polskismak:dimen/compat_button_padding_vertical_material
+    @com.zaurh.polskismak:dimen/compat_button_padding_horizontal_material
+@com.zaurh.polskismak:drawable/notification_bg : reachable=false
+    @com.zaurh.polskismak:drawable/notification_bg_normal_pressed
+    @com.zaurh.polskismak:drawable/notification_bg_normal
+@com.zaurh.polskismak:drawable/notification_bg_low : reachable=false
+    @com.zaurh.polskismak:drawable/notification_bg_low_pressed
+    @com.zaurh.polskismak:drawable/notification_bg_low_normal
+@com.zaurh.polskismak:drawable/notification_bg_low_normal : reachable=false
+@com.zaurh.polskismak:drawable/notification_bg_low_pressed : reachable=false
+@com.zaurh.polskismak:drawable/notification_bg_normal : reachable=false
+@com.zaurh.polskismak:drawable/notification_bg_normal_pressed : reachable=false
+@com.zaurh.polskismak:drawable/notification_icon_background : reachable=false
+    @com.zaurh.polskismak:color/notification_icon_bg_color
+@com.zaurh.polskismak:drawable/notification_oversize_large_icon_bg : reachable=false
+@com.zaurh.polskismak:drawable/notification_template_icon_bg : reachable=false
+@com.zaurh.polskismak:drawable/notification_template_icon_low_bg : reachable=false
+@com.zaurh.polskismak:drawable/notification_tile_bg : reachable=false
+    @com.zaurh.polskismak:drawable/notify_panel_notification_icon_bg
+@com.zaurh.polskismak:drawable/notify_panel_notification_icon_bg : reachable=false
+@com.zaurh.polskismak:drawable/onboarding1 : reachable=true
+@com.zaurh.polskismak:drawable/onboarding2 : reachable=true
+@com.zaurh.polskismak:id/accessibility_action_clickable_span : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_0 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_1 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_10 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_11 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_12 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_13 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_14 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_15 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_16 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_17 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_18 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_19 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_2 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_20 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_21 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_22 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_23 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_24 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_25 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_26 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_27 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_28 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_29 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_3 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_30 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_31 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_4 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_5 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_6 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_7 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_8 : reachable=true
+@com.zaurh.polskismak:id/accessibility_custom_action_9 : reachable=true
+@com.zaurh.polskismak:id/action_container : reachable=false
+@com.zaurh.polskismak:id/action_divider : reachable=false
+@com.zaurh.polskismak:id/action_image : reachable=false
+@com.zaurh.polskismak:id/action_text : reachable=false
+@com.zaurh.polskismak:id/actions : reachable=false
+@com.zaurh.polskismak:id/androidx_compose_ui_view_composition_context : reachable=true
+@com.zaurh.polskismak:id/async : reachable=false
+@com.zaurh.polskismak:id/blocking : reachable=false
+@com.zaurh.polskismak:id/chronometer : reachable=false
+@com.zaurh.polskismak:id/compose_prefetch_scheduler : reachable=true
+@com.zaurh.polskismak:id/compose_view_saveable_id_tag : reachable=true
+@com.zaurh.polskismak:id/consume_window_insets_tag : reachable=true
+@com.zaurh.polskismak:id/dialog_button : reachable=false
+@com.zaurh.polskismak:id/edit_text_id : reachable=false
+@com.zaurh.polskismak:id/forever : reachable=false
+@com.zaurh.polskismak:id/fragment_container_view_tag : reachable=false
+@com.zaurh.polskismak:id/hide_graphics_layer_in_inspector_tag : reachable=true
+@com.zaurh.polskismak:id/hide_ime_id : reachable=false
+@com.zaurh.polskismak:id/hide_in_inspector_tag : reachable=true
+@com.zaurh.polskismak:id/icon : reachable=false
+@com.zaurh.polskismak:id/icon_group : reachable=false
+@com.zaurh.polskismak:id/info : reachable=false
+@com.zaurh.polskismak:id/inspection_slot_table_set : reachable=true
+@com.zaurh.polskismak:id/is_pooling_container_tag : reachable=true
+@com.zaurh.polskismak:id/italic : reachable=false
+@com.zaurh.polskismak:id/line1 : reachable=false
+@com.zaurh.polskismak:id/line3 : reachable=false
+@com.zaurh.polskismak:id/nav_controller_view_tag : reachable=false
+@com.zaurh.polskismak:id/normal : reachable=false
+@com.zaurh.polskismak:id/notification_background : reachable=false
+@com.zaurh.polskismak:id/notification_main_column : reachable=false
+@com.zaurh.polskismak:id/notification_main_column_container : reachable=false
+@com.zaurh.polskismak:id/pooling_container_listener_holder_tag : reachable=true
+@com.zaurh.polskismak:id/report_drawn : reachable=true
+@com.zaurh.polskismak:id/right_icon : reachable=false
+@com.zaurh.polskismak:id/right_side : reachable=false
+@com.zaurh.polskismak:id/special_effects_controller_view_tag : reachable=false
+@com.zaurh.polskismak:id/splashscreen_icon_view : reachable=false
+@com.zaurh.polskismak:id/tag_accessibility_actions : reachable=true
+@com.zaurh.polskismak:id/tag_accessibility_clickable_spans : reachable=true
+@com.zaurh.polskismak:id/tag_accessibility_heading : reachable=true
+@com.zaurh.polskismak:id/tag_accessibility_pane_title : reachable=true
+@com.zaurh.polskismak:id/tag_compat_insets_dispatch : reachable=true
+@com.zaurh.polskismak:id/tag_on_apply_window_listener : reachable=true
+@com.zaurh.polskismak:id/tag_on_receive_content_listener : reachable=false
+@com.zaurh.polskismak:id/tag_on_receive_content_mime_types : reachable=false
+@com.zaurh.polskismak:id/tag_screen_reader_focusable : reachable=true
+@com.zaurh.polskismak:id/tag_state_description : reachable=true
+@com.zaurh.polskismak:id/tag_system_bar_state_monitor : reachable=false
+@com.zaurh.polskismak:id/tag_transition_group : reachable=false
+@com.zaurh.polskismak:id/tag_unhandled_key_event_manager : reachable=true
+@com.zaurh.polskismak:id/tag_unhandled_key_listeners : reachable=true
+@com.zaurh.polskismak:id/tag_window_insets_animation_callback : reachable=true
+@com.zaurh.polskismak:id/text : reachable=false
+@com.zaurh.polskismak:id/text2 : reachable=false
+@com.zaurh.polskismak:id/time : reachable=false
+@com.zaurh.polskismak:id/title : reachable=false
+@com.zaurh.polskismak:id/view_tree_disjoint_parent : reachable=true
+@com.zaurh.polskismak:id/view_tree_lifecycle_owner : reachable=true
+@com.zaurh.polskismak:id/view_tree_on_back_pressed_dispatcher_owner : reachable=true
+@com.zaurh.polskismak:id/view_tree_saved_state_registry_owner : reachable=true
+@com.zaurh.polskismak:id/view_tree_view_model_store_owner : reachable=true
+@com.zaurh.polskismak:id/visible_removing_fragment_view_tag : reachable=false
+@com.zaurh.polskismak:id/wrapped_composition_tag : reachable=true
+@com.zaurh.polskismak:integer/default_icon_animation_duration : reachable=false
+@com.zaurh.polskismak:integer/m3c_window_layout_in_display_cutout_mode : reachable=false
+@com.zaurh.polskismak:integer/status_bar_notification_info_maxnum : reachable=false
+@com.zaurh.polskismak:layout/custom_dialog : reachable=false
+@com.zaurh.polskismak:layout/ime_base_split_test_activity : reachable=false
+@com.zaurh.polskismak:layout/ime_secondary_split_test_activity : reachable=false
+@com.zaurh.polskismak:layout/notification_action : reachable=false
+    @com.zaurh.polskismak:style/Widget_Compat_NotificationActionContainer
+    @com.zaurh.polskismak:dimen/notification_action_icon_size
+    @com.zaurh.polskismak:style/Widget_Compat_NotificationActionText
+@com.zaurh.polskismak:layout/notification_action_tombstone : reachable=false
+    @com.zaurh.polskismak:style/Widget_Compat_NotificationActionContainer
+    @com.zaurh.polskismak:dimen/notification_action_icon_size
+    @com.zaurh.polskismak:style/Widget_Compat_NotificationActionText
+@com.zaurh.polskismak:layout/notification_template_custom_big : reachable=false
+    @com.zaurh.polskismak:layout/notification_template_icon_group
+    @com.zaurh.polskismak:dimen/notification_large_icon_width
+    @com.zaurh.polskismak:dimen/notification_large_icon_height
+    @com.zaurh.polskismak:dimen/notification_right_side_padding_top
+    @com.zaurh.polskismak:layout/notification_template_part_time
+    @com.zaurh.polskismak:layout/notification_template_part_chronometer
+    @com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Info
+@com.zaurh.polskismak:layout/notification_template_icon_group : reachable=false
+    @com.zaurh.polskismak:dimen/notification_large_icon_width
+    @com.zaurh.polskismak:dimen/notification_large_icon_height
+    @com.zaurh.polskismak:dimen/notification_big_circle_margin
+    @com.zaurh.polskismak:dimen/notification_right_icon_size
+@com.zaurh.polskismak:layout/notification_template_part_chronometer : reachable=false
+    @com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Time
+@com.zaurh.polskismak:layout/notification_template_part_time : reachable=false
+    @com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Time
+@com.zaurh.polskismak:layout/splash_screen_view : reachable=false
+    @com.zaurh.polskismak:attr/splashScreenIconSize
+@com.zaurh.polskismak:mipmap/ic_launcher2 : reachable=false
+    @com.zaurh.polskismak:color/ic_launcher2_background
+    @com.zaurh.polskismak:mipmap/ic_launcher2_foreground
+@com.zaurh.polskismak:mipmap/ic_launcher2_foreground : reachable=false
+@com.zaurh.polskismak:mipmap/ic_launcher2_round : reachable=false
+    @com.zaurh.polskismak:color/ic_launcher2_background
+    @com.zaurh.polskismak:mipmap/ic_launcher2_foreground
+@com.zaurh.polskismak:mipmap/ic_launcher3 : reachable=true
+    @com.zaurh.polskismak:color/ic_launcher3_background
+    @com.zaurh.polskismak:mipmap/ic_launcher3_foreground
+@com.zaurh.polskismak:mipmap/ic_launcher3_foreground : reachable=false
+@com.zaurh.polskismak:mipmap/ic_launcher3_round : reachable=true
+    @com.zaurh.polskismak:color/ic_launcher3_background
+    @com.zaurh.polskismak:mipmap/ic_launcher3_foreground
+@com.zaurh.polskismak:string/about_text : reachable=true
+@com.zaurh.polskismak:string/add_to_favorites : reachable=true
+@com.zaurh.polskismak:string/androidx_startup : reachable=true
+@com.zaurh.polskismak:string/app_name : reachable=true
+@com.zaurh.polskismak:string/autofill : reachable=true
+@com.zaurh.polskismak:string/back : reachable=true
+@com.zaurh.polskismak:string/call_notification_answer_action : reachable=false
+@com.zaurh.polskismak:string/call_notification_answer_video_action : reachable=false
+@com.zaurh.polskismak:string/call_notification_decline_action : reachable=false
+@com.zaurh.polskismak:string/call_notification_hang_up_action : reachable=false
+@com.zaurh.polskismak:string/call_notification_incoming_text : reachable=false
+@com.zaurh.polskismak:string/call_notification_ongoing_text : reachable=false
+@com.zaurh.polskismak:string/call_notification_screening_text : reachable=false
+@com.zaurh.polskismak:string/clear_search : reachable=true
+@com.zaurh.polskismak:string/close : reachable=true
+@com.zaurh.polskismak:string/close_drawer : reachable=false
+@com.zaurh.polskismak:string/close_sheet : reachable=false
+@com.zaurh.polskismak:string/default_error_message : reachable=true
+@com.zaurh.polskismak:string/default_popup_window_title : reachable=true
+@com.zaurh.polskismak:string/detail_difficulty : reachable=true
+@com.zaurh.polskismak:string/detail_ingredients : reachable=true
+@com.zaurh.polskismak:string/detail_not_found : reachable=true
+@com.zaurh.polskismak:string/detail_time_split : reachable=true
+@com.zaurh.polskismak:string/dietary_meat : reachable=true
+@com.zaurh.polskismak:string/dietary_vegan : reachable=true
+@com.zaurh.polskismak:string/dietary_vegetarian : reachable=true
+@com.zaurh.polskismak:string/difficulty_easy : reachable=true
+@com.zaurh.polskismak:string/difficulty_hard : reachable=true
+@com.zaurh.polskismak:string/difficulty_moderate : reachable=true
+@com.zaurh.polskismak:string/dropdown_menu : reachable=false
+@com.zaurh.polskismak:string/favorites_browse : reachable=true
+@com.zaurh.polskismak:string/favorites_empty_message : reachable=true
+@com.zaurh.polskismak:string/favorites_empty_title : reachable=true
+@com.zaurh.polskismak:string/favorites_no_results : reachable=true
+@com.zaurh.polskismak:string/favorites_removed : reachable=true
+@com.zaurh.polskismak:string/favorites_title : reachable=true
+@com.zaurh.polskismak:string/filter_all : reachable=true
+@com.zaurh.polskismak:string/filter_easy : reachable=true
+@com.zaurh.polskismak:string/filter_quick : reachable=true
+@com.zaurh.polskismak:string/filter_vegetarian : reachable=true
+@com.zaurh.polskismak:string/home_empty_message : reachable=true
+@com.zaurh.polskismak:string/home_empty_title : reachable=true
+@com.zaurh.polskismak:string/home_quote_hint : reachable=true
+@com.zaurh.polskismak:string/home_section_recipes : reachable=true
+@com.zaurh.polskismak:string/home_subtitle : reachable=true
+@com.zaurh.polskismak:string/in_progress : reachable=true
+@com.zaurh.polskismak:string/indeterminate : reachable=true
+@com.zaurh.polskismak:string/m3c_bottom_sheet_collapse_description : reachable=false
+@com.zaurh.polskismak:string/m3c_bottom_sheet_dismiss_description : reachable=false
+@com.zaurh.polskismak:string/m3c_bottom_sheet_drag_handle_description : reachable=false
+@com.zaurh.polskismak:string/m3c_bottom_sheet_expand_description : reachable=false
+@com.zaurh.polskismak:string/m3c_bottom_sheet_pane_title : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_headline : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_headline_description : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_invalid_for_pattern : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_invalid_not_allowed : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_invalid_year_range : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_label : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_no_input_description : reachable=false
+@com.zaurh.polskismak:string/m3c_date_input_title : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_headline : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_headline_description : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_navigate_to_year_description : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_no_selection_description : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_scroll_to_earlier_years : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_scroll_to_later_years : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_switch_to_calendar_mode : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_switch_to_day_selection : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_switch_to_input_mode : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_switch_to_next_month : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_switch_to_previous_month : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_switch_to_year_selection : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_title : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_today_description : reachable=false
+@com.zaurh.polskismak:string/m3c_date_picker_year_picker_pane_title : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_input_invalid_range_input : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_input_title : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_picker_day_in_range : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_picker_end_headline : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_picker_scroll_to_next_month : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_picker_scroll_to_previous_month : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_picker_start_headline : reachable=false
+@com.zaurh.polskismak:string/m3c_date_range_picker_title : reachable=false
+@com.zaurh.polskismak:string/m3c_dialog : reachable=true
+@com.zaurh.polskismak:string/m3c_dropdown_menu_collapsed : reachable=false
+@com.zaurh.polskismak:string/m3c_dropdown_menu_expanded : reachable=false
+@com.zaurh.polskismak:string/m3c_dropdown_menu_toggle : reachable=false
+@com.zaurh.polskismak:string/m3c_search_bar_search : reachable=false
+@com.zaurh.polskismak:string/m3c_snackbar_dismiss : reachable=false
+@com.zaurh.polskismak:string/m3c_suggestions_available : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_am : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_hour : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_hour_24h_suffix : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_hour_selection : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_hour_suffix : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_hour_text_field : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_minute : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_minute_selection : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_minute_suffix : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_minute_text_field : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_period_toggle_description : reachable=false
+@com.zaurh.polskismak:string/m3c_time_picker_pm : reachable=false
+@com.zaurh.polskismak:string/m3c_tooltip_long_press_label : reachable=false
+@com.zaurh.polskismak:string/m3c_tooltip_pane_description : reachable=false
+@com.zaurh.polskismak:string/minutes_short : reachable=true
+@com.zaurh.polskismak:string/nav_favorites : reachable=true
+@com.zaurh.polskismak:string/nav_home : reachable=true
+@com.zaurh.polskismak:string/nav_settings : reachable=true
+@com.zaurh.polskismak:string/navigation_menu : reachable=false
+@com.zaurh.polskismak:string/not_selected : reachable=true
+@com.zaurh.polskismak:string/onboarding_desc_1 : reachable=true
+@com.zaurh.polskismak:string/onboarding_desc_2 : reachable=true
+@com.zaurh.polskismak:string/onboarding_desc_3 : reachable=true
+@com.zaurh.polskismak:string/onboarding_next : reachable=true
+@com.zaurh.polskismak:string/onboarding_skip : reachable=true
+@com.zaurh.polskismak:string/onboarding_start : reachable=true
+@com.zaurh.polskismak:string/onboarding_title_1 : reachable=true
+@com.zaurh.polskismak:string/onboarding_title_2 : reachable=true
+@com.zaurh.polskismak:string/onboarding_title_3 : reachable=true
+@com.zaurh.polskismak:string/range_end : reachable=false
+@com.zaurh.polskismak:string/range_start : reachable=false
+@com.zaurh.polskismak:string/remove_from_favorites : reachable=true
+@com.zaurh.polskismak:string/search_favorites : reachable=true
+@com.zaurh.polskismak:string/search_recipes : reachable=true
+@com.zaurh.polskismak:string/selected : reachable=true
+@com.zaurh.polskismak:string/settings_about : reachable=true
+@com.zaurh.polskismak:string/settings_about_section : reachable=true
+@com.zaurh.polskismak:string/settings_appearance : reachable=true
+@com.zaurh.polskismak:string/settings_contact : reachable=true
+@com.zaurh.polskismak:string/settings_contact_summary : reachable=true
+@com.zaurh.polskismak:string/settings_language : reachable=true
+@com.zaurh.polskismak:string/settings_language_summary : reachable=true
+@com.zaurh.polskismak:string/settings_rate : reachable=true
+@com.zaurh.polskismak:string/settings_rate_summary : reachable=true
+@com.zaurh.polskismak:string/settings_theme : reachable=true
+@com.zaurh.polskismak:string/settings_title : reachable=true
+@com.zaurh.polskismak:string/settings_version : reachable=true
+@com.zaurh.polskismak:string/share : reachable=true
+@com.zaurh.polskismak:string/share_chooser_title : reachable=true
+@com.zaurh.polskismak:string/share_footer : reachable=true
+@com.zaurh.polskismak:string/share_ingredients_header : reachable=true
+@com.zaurh.polskismak:string/share_steps_header : reachable=true
+@com.zaurh.polskismak:string/snackbar_pane_title : reachable=false
+@com.zaurh.polskismak:string/state_empty : reachable=true
+@com.zaurh.polskismak:string/state_off : reachable=true
+@com.zaurh.polskismak:string/state_on : reachable=true
+@com.zaurh.polskismak:string/status_bar_notification_info_overflow : reachable=false
+@com.zaurh.polskismak:string/steps_hint : reachable=true
+@com.zaurh.polskismak:string/steps_progress : reachable=true
+@com.zaurh.polskismak:string/surprise_action : reachable=true
+@com.zaurh.polskismak:string/surprise_subtitle : reachable=true
+@com.zaurh.polskismak:string/surprise_title : reachable=true
+@com.zaurh.polskismak:string/switch_role : reachable=true
+@com.zaurh.polskismak:string/tab : reachable=true
+@com.zaurh.polskismak:string/tab_ingredients : reachable=true
+@com.zaurh.polskismak:string/tab_steps : reachable=true
+@com.zaurh.polskismak:string/template_percent : reachable=true
+@com.zaurh.polskismak:string/theme_dark : reachable=true
+@com.zaurh.polskismak:string/theme_light : reachable=true
+@com.zaurh.polskismak:string/theme_system : reachable=true
+@com.zaurh.polskismak:string/tooltip_description : reachable=false
+@com.zaurh.polskismak:string/tooltip_label : reachable=false
+@com.zaurh.polskismak:string/undo : reachable=true
+@com.zaurh.polskismak:string/unit_cup : reachable=true
+@com.zaurh.polskismak:string/unit_cups : reachable=true
+@com.zaurh.polskismak:string/unit_grams : reachable=true
+@com.zaurh.polskismak:string/unit_kilograms : reachable=true
+@com.zaurh.polskismak:string/unit_liters : reachable=true
+@com.zaurh.polskismak:string/unit_milliliters : reachable=true
+@com.zaurh.polskismak:string/unit_piece : reachable=true
+@com.zaurh.polskismak:string/unit_pieces : reachable=true
+@com.zaurh.polskismak:string/unit_tablespoons : reachable=true
+@com.zaurh.polskismak:string/unit_teaspoons : reachable=true
+@com.zaurh.polskismak:style/Base_Theme_SplashScreen : reachable=false
+    @com.zaurh.polskismak:style/Base_v21_Theme_SplashScreen
+    @com.zaurh.polskismak:style/Base_v27_Theme_SplashScreen
+@com.zaurh.polskismak:style/Base_Theme_SplashScreen_DayNight : reachable=false
+    @com.zaurh.polskismak:style/Base_Theme_SplashScreen_Light
+    @com.zaurh.polskismak:style/Base_Theme_SplashScreen
+@com.zaurh.polskismak:style/Base_Theme_SplashScreen_Light : reachable=false
+    @com.zaurh.polskismak:style/Base_v21_Theme_SplashScreen_Light
+    @com.zaurh.polskismak:style/Base_v27_Theme_SplashScreen_Light
+    @com.zaurh.polskismak:style/Base_Theme_SplashScreen
+@com.zaurh.polskismak:style/Base_v21_Theme_SplashScreen : reachable=false
+@com.zaurh.polskismak:style/Base_v21_Theme_SplashScreen_Light : reachable=false
+@com.zaurh.polskismak:style/Base_v27_Theme_SplashScreen : reachable=false
+    @com.zaurh.polskismak:style/Base_v21_Theme_SplashScreen
+@com.zaurh.polskismak:style/Base_v27_Theme_SplashScreen_Light : reachable=false
+    @com.zaurh.polskismak:style/Base_v21_Theme_SplashScreen_Light
+@com.zaurh.polskismak:style/DialogWindowTheme : reachable=true
+@com.zaurh.polskismak:style/EdgeToEdgeFloatingDialogTheme : reachable=false
+    @com.zaurh.polskismak:integer/m3c_window_layout_in_display_cutout_mode
+@com.zaurh.polskismak:style/EdgeToEdgeFloatingDialogWindowTheme : reachable=false
+    @com.zaurh.polskismak:style/EdgeToEdgeFloatingDialogTheme
+@com.zaurh.polskismak:style/FloatingDialogWindowTheme : reachable=true
+@com.zaurh.polskismak:style/TextAppearance_Compat_Notification : reachable=false
+@com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Info : reachable=false
+@com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Line2 : reachable=false
+    @com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Info
+@com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Time : reachable=false
+@com.zaurh.polskismak:style/TextAppearance_Compat_Notification_Title : reachable=false
+@com.zaurh.polskismak:style/Theme_PolskiSmak : reachable=false
+    @com.zaurh.polskismak:color/window_background
+@com.zaurh.polskismak:style/Theme_PolskiSmak_Starting : reachable=true
+    @com.zaurh.polskismak:style/Theme_SplashScreen
+    @com.zaurh.polskismak:color/splash_background
+    @com.zaurh.polskismak:attr/windowSplashScreenBackground
+    @com.zaurh.polskismak:mipmap/ic_launcher3_foreground
+    @com.zaurh.polskismak:attr/windowSplashScreenAnimatedIcon
+    @com.zaurh.polskismak:style/Theme_PolskiSmak
+    @com.zaurh.polskismak:attr/postSplashScreenTheme
+@com.zaurh.polskismak:style/Theme_SplashScreen : reachable=false
+    @com.zaurh.polskismak:style/Theme_SplashScreen_Common
+    @com.zaurh.polskismak:attr/postSplashScreenTheme
+    @com.zaurh.polskismak:integer/default_icon_animation_duration
+    @com.zaurh.polskismak:attr/windowSplashScreenAnimationDuration
+    @com.zaurh.polskismak:attr/windowSplashScreenBackground
+    @com.zaurh.polskismak:attr/windowSplashScreenAnimatedIcon
+    @com.zaurh.polskismak:style/Base_Theme_SplashScreen_DayNight
+@com.zaurh.polskismak:style/Theme_SplashScreen_Common : reachable=false
+    @com.zaurh.polskismak:style/Base_Theme_SplashScreen_DayNight
+    @com.zaurh.polskismak:drawable/compat_splash_screen_no_icon_background
+    @com.zaurh.polskismak:dimen/splashscreen_icon_size_no_background
+    @com.zaurh.polskismak:attr/splashScreenIconSize
+@com.zaurh.polskismak:style/Theme_SplashScreen_IconBackground : reachable=false
+    @com.zaurh.polskismak:style/Theme_SplashScreen
+    @com.zaurh.polskismak:drawable/compat_splash_screen
+    @com.zaurh.polskismak:dimen/splashscreen_icon_size_with_background
+    @com.zaurh.polskismak:attr/splashScreenIconSize
+    @com.zaurh.polskismak:attr/windowSplashScreenIconBackgroundColor
+@com.zaurh.polskismak:style/Widget_Compat_NotificationActionContainer : reachable=false
+    @com.zaurh.polskismak:drawable/notification_action_background
+@com.zaurh.polskismak:style/Widget_Compat_NotificationActionText : reachable=false
+    @com.zaurh.polskismak:color/androidx_core_secondary_text_default_material_light
+    @com.zaurh.polskismak:dimen/notification_action_text_size
+@com.zaurh.polskismak:xml/_generated_res_locale_config : reachable=true
+@com.zaurh.polskismak:xml/backup_rules : reachable=true
+@com.zaurh.polskismak:xml/data_extraction_rules : reachable=true
+
+The root reachable resources are:
+ attr:alpha:2130903041
+ attr:lStar:2130903061
+ attr:postSplashScreenTheme:2130903072
+ attr:splashScreenIconSize:2130903077
+ attr:windowSplashScreenAnimatedIcon:2130903082
+ attr:windowSplashScreenBackground:2130903084
+ drawable:food_allspice_berry:2131099650
+ drawable:food_baking_powder:2131099651
+ drawable:food_bay_leaf:2131099652
+ drawable:food_beef:2131099653
+ drawable:food_beer:2131099654
+ drawable:food_bigos:2131099655
+ drawable:food_bread_crumb:2131099656
+ drawable:food_butter:2131099657
+ drawable:food_cabbage:2131099658
+ drawable:food_caraway_seeds:2131099659
+ drawable:food_carrot:2131099660
+ drawable:food_celery_root:2131099661
+ drawable:food_chicken_stock:2131099662
+ drawable:food_chicken_thigh:2131099663
+ drawable:food_cracker_crumb:2131099664
+ drawable:food_dough:2131099665
+ drawable:food_dried_marjoram:2131099666
+ drawable:food_dried_porcini_mushroom:2131099667
+ drawable:food_dry_yeast:2131099668
+ drawable:food_egg:2131099669
+ drawable:food_farmers_cheese:2131099670
+ drawable:food_flour:2131099671
+ drawable:food_garlic:2131099672
+ drawable:food_golabki:2131099673
+ drawable:food_golonka:2131099674
+ drawable:food_golonka_w_piwie:2131099675
+ drawable:food_ground_beef:2131099676
+ drawable:food_ground_black_pepper:2131099677
+ drawable:food_ground_pork:2131099678
+ drawable:food_gulasz:2131099679
+ drawable:food_kielbasa:2131099680
+ drawable:food_kluski_slaskie:2131099681
+ drawable:food_knedle:2131099682
+ drawable:food_kotlet_mielony:2131099683
+ drawable:food_kotlet_schabowy:2131099684
+ drawable:food_leniwe:2131099685
+ drawable:food_milk:2131099686
+ drawable:food_mushroom:2131099687
+ drawable:food_neutral_oil:2131099688
+ drawable:food_olive_oil:2131099689
+ drawable:food_onion:2131099690
+ drawable:food_paprika:2131099691
+ drawable:food_pierogi:2131099692
+ drawable:food_placki_ziemniaczane:2131099693
+ drawable:food_plum:2131099694
+ drawable:food_pork_chop:2131099695
+ drawable:food_potato:2131099696
+ drawable:food_potato_filling:2131099697
+ drawable:food_prunes:2131099698
+ drawable:food_pyzy:2131099699
+ drawable:food_red_bell_pepper:2131099700
+ drawable:food_rice:2131099701
+ drawable:food_salt:2131099702
+ drawable:food_sauerkraut:2131099703
+ drawable:food_shortening:2131099704
+ drawable:food_sour_cream:2131099705
+ drawable:food_stuffed_cabbage_rolls:2131099706
+ drawable:food_sugar:2131099707
+ drawable:food_tomato_passata:2131099708
+ drawable:food_tomato_paste:2131099709
+ drawable:food_tomato_sauce:2131099710
+ drawable:food_water:2131099711
+ drawable:food_white_pepper:2131099712
+ drawable:logo:2131099720
+ drawable:onboarding1:2131099734
+ drawable:onboarding2:2131099735
+ id:accessibility_action_clickable_span:2131165184
+ id:accessibility_custom_action_0:2131165185
+ id:accessibility_custom_action_1:2131165186
+ id:accessibility_custom_action_10:2131165187
+ id:accessibility_custom_action_11:2131165188
+ id:accessibility_custom_action_12:2131165189
+ id:accessibility_custom_action_13:2131165190
+ id:accessibility_custom_action_14:2131165191
+ id:accessibility_custom_action_15:2131165192
+ id:accessibility_custom_action_16:2131165193
+ id:accessibility_custom_action_17:2131165194
+ id:accessibility_custom_action_18:2131165195
+ id:accessibility_custom_action_19:2131165196
+ id:accessibility_custom_action_2:2131165197
+ id:accessibility_custom_action_20:2131165198
+ id:accessibility_custom_action_21:2131165199
+ id:accessibility_custom_action_22:2131165200
+ id:accessibility_custom_action_23:2131165201
+ id:accessibility_custom_action_24:2131165202
+ id:accessibility_custom_action_25:2131165203
+ id:accessibility_custom_action_26:2131165204
+ id:accessibility_custom_action_27:2131165205
+ id:accessibility_custom_action_28:2131165206
+ id:accessibility_custom_action_29:2131165207
+ id:accessibility_custom_action_3:2131165208
+ id:accessibility_custom_action_30:2131165209
+ id:accessibility_custom_action_31:2131165210
+ id:accessibility_custom_action_4:2131165211
+ id:accessibility_custom_action_5:2131165212
+ id:accessibility_custom_action_6:2131165213
+ id:accessibility_custom_action_7:2131165214
+ id:accessibility_custom_action_8:2131165215
+ id:accessibility_custom_action_9:2131165216
+ id:androidx_compose_ui_view_composition_context:2131165222
+ id:compose_prefetch_scheduler:2131165226
+ id:compose_view_saveable_id_tag:2131165227
+ id:consume_window_insets_tag:2131165228
+ id:hide_graphics_layer_in_inspector_tag:2131165233
+ id:hide_in_inspector_tag:2131165235
+ id:inspection_slot_table_set:2131165239
+ id:is_pooling_container_tag:2131165240
+ id:pooling_container_listener_holder_tag:2131165249
+ id:report_drawn:2131165250
+ id:tag_accessibility_actions:2131165255
+ id:tag_accessibility_clickable_spans:2131165256
+ id:tag_accessibility_heading:2131165257
+ id:tag_accessibility_pane_title:2131165258
+ id:tag_compat_insets_dispatch:2131165259
+ id:tag_on_apply_window_listener:2131165260
+ id:tag_screen_reader_focusable:2131165263
+ id:tag_state_description:2131165264
+ id:tag_unhandled_key_event_manager:2131165267
+ id:tag_unhandled_key_listeners:2131165268
+ id:tag_window_insets_animation_callback:2131165269
+ id:view_tree_disjoint_parent:2131165274
+ id:view_tree_lifecycle_owner:2131165275
+ id:view_tree_on_back_pressed_dispatcher_owner:2131165276
+ id:view_tree_saved_state_registry_owner:2131165277
+ id:view_tree_view_model_store_owner:2131165278
+ id:wrapped_composition_tag:2131165280
+ mipmap:ic_launcher3:2131361795
+ mipmap:ic_launcher3_round:2131361797
+ string:about_text:2131427328
+ string:add_to_favorites:2131427329
+ string:androidx_startup:2131427330
+ string:app_name:2131427331
+ string:autofill:2131427332
+ string:back:2131427333
+ string:clear_search:2131427341
+ string:close:2131427342
+ string:default_error_message:2131427345
+ string:default_popup_window_title:2131427346
+ string:detail_difficulty:2131427347
+ string:detail_ingredients:2131427348
+ string:detail_not_found:2131427349
+ string:detail_time_split:2131427350
+ string:dietary_meat:2131427351
+ string:dietary_vegan:2131427352
+ string:dietary_vegetarian:2131427353
+ string:difficulty_easy:2131427354
+ string:difficulty_hard:2131427355
+ string:difficulty_moderate:2131427356
+ string:favorites_browse:2131427358
+ string:favorites_empty_message:2131427359
+ string:favorites_empty_title:2131427360
+ string:favorites_no_results:2131427361
+ string:favorites_removed:2131427362
+ string:favorites_title:2131427363
+ string:filter_all:2131427364
+ string:filter_easy:2131427365
+ string:filter_quick:2131427366
+ string:filter_vegetarian:2131427367
+ string:home_empty_message:2131427368
+ string:home_empty_title:2131427369
+ string:home_quote_hint:2131427370
+ string:home_section_recipes:2131427371
+ string:home_subtitle:2131427372
+ string:in_progress:2131427373
+ string:indeterminate:2131427374
+ string:m3c_dialog:2131427411
+ string:minutes_short:2131427432
+ string:nav_favorites:2131427433
+ string:nav_home:2131427434
+ string:nav_settings:2131427435
+ string:not_selected:2131427437
+ string:onboarding_desc_1:2131427438
+ string:onboarding_desc_2:2131427439
+ string:onboarding_desc_3:2131427440
+ string:onboarding_next:2131427441
+ string:onboarding_skip:2131427442
+ string:onboarding_start:2131427443
+ string:onboarding_title_1:2131427444
+ string:onboarding_title_2:2131427445
+ string:onboarding_title_3:2131427446
+ string:remove_from_favorites:2131427449
+ string:search_favorites:2131427450
+ string:search_recipes:2131427451
+ string:selected:2131427452
+ string:settings_about:2131427453
+ string:settings_about_section:2131427454
+ string:settings_appearance:2131427455
+ string:settings_contact:2131427456
+ string:settings_contact_summary:2131427457
+ string:settings_language:2131427458
+ string:settings_language_summary:2131427459
+ string:settings_rate:2131427460
+ string:settings_rate_summary:2131427461
+ string:settings_theme:2131427462
+ string:settings_title:2131427463
+ string:settings_version:2131427464
+ string:share:2131427465
+ string:share_chooser_title:2131427466
+ string:share_footer:2131427467
+ string:share_ingredients_header:2131427468
+ string:share_steps_header:2131427469
+ string:state_empty:2131427471
+ string:state_off:2131427472
+ string:state_on:2131427473
+ string:steps_hint:2131427475
+ string:steps_progress:2131427476
+ string:surprise_action:2131427477
+ string:surprise_subtitle:2131427478
+ string:surprise_title:2131427479
+ string:switch_role:2131427480
+ string:tab:2131427481
+ string:tab_ingredients:2131427482
+ string:tab_steps:2131427483
+ string:template_percent:2131427484
+ string:theme_dark:2131427485
+ string:theme_light:2131427486
+ string:theme_system:2131427487
+ string:undo:2131427490
+ string:unit_cup:2131427491
+ string:unit_cups:2131427492
+ string:unit_grams:2131427493
+ string:unit_kilograms:2131427494
+ string:unit_liters:2131427495
+ string:unit_milliliters:2131427496
+ string:unit_piece:2131427497
+ string:unit_pieces:2131427498
+ string:unit_tablespoons:2131427499
+ string:unit_teaspoons:2131427500
+ style:DialogWindowTheme:2131492871
+ style:FloatingDialogWindowTheme:2131492874
+ style:Theme_PolskiSmak_Starting:2131492881
+ xml:_generated_res_locale_config:2131623936
+ xml:backup_rules:2131623937
+ xml:data_extraction_rules:2131623938
+Unused resources are: 
+ anim:fragment_fast_out_extra_slow_in:2130771968
+ animator:fragment_close_enter:2130837504
+ animator:fragment_close_exit:2130837505
+ animator:fragment_fade_enter:2130837506
+ animator:fragment_fade_exit:2130837507
+ animator:fragment_open_enter:2130837508
+ animator:fragment_open_exit:2130837509
+ color:androidx_core_ripple_material_light:2130968576
+ color:androidx_core_secondary_text_default_material_light:2130968577
+ color:call_notification_answer_color:2130968578
+ color:call_notification_decline_color:2130968579
+ color:ic_launcher2_background:2130968580
+ color:notification_action_color_filter:2130968582
+ color:notification_icon_bg_color:2130968583
+ color:vector_tint_color:2130968585
+ color:vector_tint_theme_color:2130968586
+ dimen:compat_button_inset_horizontal_material:2131034112
+ dimen:compat_button_inset_vertical_material:2131034113
+ dimen:compat_button_padding_horizontal_material:2131034114
+ dimen:compat_button_padding_vertical_material:2131034115
+ dimen:compat_control_corner_material:2131034116
+ dimen:compat_notification_large_icon_max_height:2131034117
+ dimen:compat_notification_large_icon_max_width:2131034118
+ dimen:notification_action_icon_size:2131034119
+ dimen:notification_action_text_size:2131034120
+ dimen:notification_big_circle_margin:2131034121
+ dimen:notification_content_margin_start:2131034122
+ dimen:notification_large_icon_height:2131034123
+ dimen:notification_large_icon_width:2131034124
+ dimen:notification_main_column_padding_top:2131034125
+ dimen:notification_media_narrow_margin:2131034126
+ dimen:notification_right_icon_size:2131034127
+ dimen:notification_right_side_padding_top:2131034128
+ dimen:notification_small_icon_background_padding:2131034129
+ dimen:notification_small_icon_size_as_large:2131034130
+ dimen:notification_subtext_size:2131034131
+ dimen:notification_top_pad:2131034132
+ dimen:notification_top_pad_large_text:2131034133
+ dimen:splashscreen_icon_mask_size_with_background:2131034135
+ dimen:splashscreen_icon_mask_stroke_with_background:2131034137
+ dimen:splashscreen_icon_size:2131034138
+ dimen:splashscreen_icon_size_with_background:2131034140
+ drawable:compat_splash_screen:2131099648
+ drawable:ic_call_answer:2131099713
+ drawable:ic_call_answer_low:2131099714
+ drawable:ic_call_answer_video:2131099715
+ drawable:ic_call_answer_video_low:2131099716
+ drawable:ic_call_decline:2131099717
+ drawable:ic_call_decline_low:2131099718
+ drawable:icon_background:2131099719
+ drawable:notification_action_background:2131099721
+ drawable:notification_bg:2131099722
+ drawable:notification_bg_low:2131099723
+ drawable:notification_bg_low_normal:2131099724
+ drawable:notification_bg_low_pressed:2131099725
+ drawable:notification_bg_normal:2131099726
+ drawable:notification_bg_normal_pressed:2131099727
+ drawable:notification_icon_background:2131099728
+ drawable:notification_oversize_large_icon_bg:2131099729
+ drawable:notification_template_icon_bg:2131099730
+ drawable:notification_template_icon_low_bg:2131099731
+ drawable:notification_tile_bg:2131099732
+ drawable:notify_panel_notification_icon_bg:2131099733
+ id:action_container:2131165217
+ id:action_divider:2131165218
+ id:action_image:2131165219
+ id:action_text:2131165220
+ id:actions:2131165221
+ id:async:2131165223
+ id:blocking:2131165224
+ id:chronometer:2131165225
+ id:dialog_button:2131165229
+ id:edit_text_id:2131165230
+ id:forever:2131165231
+ id:fragment_container_view_tag:2131165232
+ id:hide_ime_id:2131165234
+ id:icon:2131165236
+ id:icon_group:2131165237
+ id:info:2131165238
+ id:italic:2131165241
+ id:line1:2131165242
+ id:line3:2131165243
+ id:nav_controller_view_tag:2131165244
+ id:normal:2131165245
+ id:notification_background:2131165246
+ id:notification_main_column:2131165247
+ id:notification_main_column_container:2131165248
+ id:right_icon:2131165251
+ id:right_side:2131165252
+ id:special_effects_controller_view_tag:2131165253
+ id:splashscreen_icon_view:2131165254
+ id:tag_on_receive_content_listener:2131165261
+ id:tag_on_receive_content_mime_types:2131165262
+ id:tag_system_bar_state_monitor:2131165265
+ id:tag_transition_group:2131165266
+ id:text:2131165270
+ id:text2:2131165271
+ id:time:2131165272
+ id:title:2131165273
+ id:visible_removing_fragment_view_tag:2131165279
+ integer:m3c_window_layout_in_display_cutout_mode:2131230721
+ integer:status_bar_notification_info_maxnum:2131230722
+ layout:custom_dialog:2131296256
+ layout:ime_base_split_test_activity:2131296257
+ layout:ime_secondary_split_test_activity:2131296258
+ layout:notification_action:2131296259
+ layout:notification_action_tombstone:2131296260
+ layout:notification_template_custom_big:2131296261
+ layout:notification_template_icon_group:2131296262
+ layout:notification_template_part_chronometer:2131296263
+ layout:notification_template_part_time:2131296264
+ layout:splash_screen_view:2131296265
+ mipmap:ic_launcher2:2131361792
+ mipmap:ic_launcher2_foreground:2131361793
+ mipmap:ic_launcher2_round:2131361794
+ string:call_notification_answer_action:2131427334
+ string:call_notification_answer_video_action:2131427335
+ string:call_notification_decline_action:2131427336
+ string:call_notification_hang_up_action:2131427337
+ string:call_notification_incoming_text:2131427338
+ string:call_notification_ongoing_text:2131427339
+ string:call_notification_screening_text:2131427340
+ string:close_drawer:2131427343
+ string:close_sheet:2131427344
+ string:dropdown_menu:2131427357
+ string:m3c_bottom_sheet_collapse_description:2131427375
+ string:m3c_bottom_sheet_dismiss_description:2131427376
+ string:m3c_bottom_sheet_drag_handle_description:2131427377
+ string:m3c_bottom_sheet_expand_description:2131427378
+ string:m3c_bottom_sheet_pane_title:2131427379
+ string:m3c_date_input_headline:2131427380
+ string:m3c_date_input_headline_description:2131427381
+ string:m3c_date_input_invalid_for_pattern:2131427382
+ string:m3c_date_input_invalid_not_allowed:2131427383
+ string:m3c_date_input_invalid_year_range:2131427384
+ string:m3c_date_input_label:2131427385
+ string:m3c_date_input_no_input_description:2131427386
+ string:m3c_date_input_title:2131427387
+ string:m3c_date_picker_headline:2131427388
+ string:m3c_date_picker_headline_description:2131427389
+ string:m3c_date_picker_navigate_to_year_description:2131427390
+ string:m3c_date_picker_no_selection_description:2131427391
+ string:m3c_date_picker_scroll_to_earlier_years:2131427392
+ string:m3c_date_picker_scroll_to_later_years:2131427393
+ string:m3c_date_picker_switch_to_calendar_mode:2131427394
+ string:m3c_date_picker_switch_to_day_selection:2131427395
+ string:m3c_date_picker_switch_to_input_mode:2131427396
+ string:m3c_date_picker_switch_to_next_month:2131427397
+ string:m3c_date_picker_switch_to_previous_month:2131427398
+ string:m3c_date_picker_switch_to_year_selection:2131427399
+ string:m3c_date_picker_title:2131427400
+ string:m3c_date_picker_today_description:2131427401
+ string:m3c_date_picker_year_picker_pane_title:2131427402
+ string:m3c_date_range_input_invalid_range_input:2131427403
+ string:m3c_date_range_input_title:2131427404
+ string:m3c_date_range_picker_day_in_range:2131427405
+ string:m3c_date_range_picker_end_headline:2131427406
+ string:m3c_date_range_picker_scroll_to_next_month:2131427407
+ string:m3c_date_range_picker_scroll_to_previous_month:2131427408
+ string:m3c_date_range_picker_start_headline:2131427409
+ string:m3c_date_range_picker_title:2131427410
+ string:m3c_dropdown_menu_collapsed:2131427412
+ string:m3c_dropdown_menu_expanded:2131427413
+ string:m3c_dropdown_menu_toggle:2131427414
+ string:m3c_search_bar_search:2131427415
+ string:m3c_snackbar_dismiss:2131427416
+ string:m3c_suggestions_available:2131427417
+ string:m3c_time_picker_am:2131427418
+ string:m3c_time_picker_hour:2131427419
+ string:m3c_time_picker_hour_24h_suffix:2131427420
+ string:m3c_time_picker_hour_selection:2131427421
+ string:m3c_time_picker_hour_suffix:2131427422
+ string:m3c_time_picker_hour_text_field:2131427423
+ string:m3c_time_picker_minute:2131427424
+ string:m3c_time_picker_minute_selection:2131427425
+ string:m3c_time_picker_minute_suffix:2131427426
+ string:m3c_time_picker_minute_text_field:2131427427
+ string:m3c_time_picker_period_toggle_description:2131427428
+ string:m3c_time_picker_pm:2131427429
+ string:m3c_tooltip_long_press_label:2131427430
+ string:m3c_tooltip_pane_description:2131427431
+ string:navigation_menu:2131427436
+ string:range_end:2131427447
+ string:range_start:2131427448
+ string:snackbar_pane_title:2131427470
+ string:status_bar_notification_info_overflow:2131427474
+ string:tooltip_description:2131427488
+ string:tooltip_label:2131427489
+ style:EdgeToEdgeFloatingDialogTheme:2131492872
+ style:EdgeToEdgeFloatingDialogWindowTheme:2131492873
+ style:TextAppearance_Compat_Notification:2131492875
+ style:TextAppearance_Compat_Notification_Info:2131492876
+ style:TextAppearance_Compat_Notification_Line2:2131492877
+ style:TextAppearance_Compat_Notification_Time:2131492878
+ style:TextAppearance_Compat_Notification_Title:2131492879
+ style:Theme_SplashScreen_IconBackground:2131492884
+ style:Widget_Compat_NotificationActionContainer:2131492885
+ style:Widget_Compat_NotificationActionText:2131492886

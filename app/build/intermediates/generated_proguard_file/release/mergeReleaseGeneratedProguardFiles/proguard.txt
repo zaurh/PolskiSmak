@@ -1,0 +1,12 @@
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.app.AppViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.app.AppViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.detail.DetailViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.detail.DetailViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.favorites.FavoritesViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.favorites.FavoritesViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.home.HomeViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.home.HomeViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.onboarding.OnboardingViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.onboarding.OnboardingViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.settings.SettingsViewModel
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.settings.SettingsViewModel

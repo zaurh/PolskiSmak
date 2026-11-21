@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.feature.settings.SettingsViewModel

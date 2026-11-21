@@ -1,0 +1,4 @@
+#Sat Nov 21 19:36:12 AZT 2026
+base.0=/Users/hasanovzaur/StudioProjects/PolskiSmak/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

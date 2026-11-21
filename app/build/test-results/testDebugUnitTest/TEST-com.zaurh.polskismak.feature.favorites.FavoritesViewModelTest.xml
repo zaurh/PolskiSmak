@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zaurh.polskismak.feature.favorites.FavoritesViewModelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-21T15:34:34.974Z" hostname="KapMac548-M.local" time="0.002">
+  <properties/>
+  <testcase name="empty favorites" classname="com.zaurh.polskismak.feature.favorites.FavoritesViewModelTest" time="0.001"/>
+  <testcase name="search filters favorites but keeps hasAnyFavorites" classname="com.zaurh.polskismak.feature.favorites.FavoritesViewModelTest" time="0.0"/>
+  <testcase name="remove then undo" classname="com.zaurh.polskismak.feature.favorites.FavoritesViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
