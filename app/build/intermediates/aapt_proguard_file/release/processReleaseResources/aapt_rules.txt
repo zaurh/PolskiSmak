@@ -1,5 +1,0 @@
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
--keep class androidx.startup.InitializationProvider { <init>(); }
--keep class com.zaurh.polskismak.MainActivity { <init>(); }
--keep class com.zaurh.polskismak.PolskiSmakApp { <init>(); }

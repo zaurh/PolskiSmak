@@ -1,1 +1,0 @@
--keep,allowobfuscation,allowshrinking class com.zaurh.polskismak.app.AppViewModel
